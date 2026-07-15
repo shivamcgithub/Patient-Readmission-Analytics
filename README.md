@@ -6,6 +6,11 @@ This project analyzes hospital patient data to identify patients at high risk of
 
 ---
 
+## 📊 Dashboard Preview
+
+![Patient Readmission Dashboard](dashboard.png)
+
+
 ## 🎯 Business Problem
 
 Hospital readmissions increase healthcare costs and reduce operational efficiency. This project identifies high-risk patients using healthcare data and presents actionable insights through SQL analysis and an interactive dashboard.
