@@ -1,0 +1,601 @@
+patient_id,patient_name,age,gender,insurance_type,primary_diagnosis,admission_date,discharge_date,length_of_stay_days,discharge_disposition,num_medications,num_procedures,comorbidity_count,prior_admissions_12mo,followup_appointment_scheduled,readmitted_30_days,days_to_readmission,readmission_reason
+P10001,Christopher Brown,71,Male,Commercial,Diabetes Complications,2024-05-05,2024-05-08,3,Home,3,0,3,0,Yes,No,,
+P10002,Mark Moore,69,Male,Medicare,Acute Kidney Injury,2024-01-17,2024-01-19,2,Home,10,0,2,0,Yes,No,,
+P10003,James Moore,57,Male,Medicare,Diabetes Complications,2024-12-25,2024-12-27,2,Home,13,0,1,0,Yes,No,,
+P10004,Betty Smith,60,Male,Medicare,Diabetes Complications,2024-06-23,2024-06-25,2,Home,11,2,0,0,No,No,,
+P10005,Patricia Williams,77,Female,Commercial,Heart Failure,2024-06-25,2024-06-26,1,Home Health Care,19,0,1,4,Yes,Yes,25,Infection
+P10006,Sandra Gonzalez,83,Male,Commercial,Acute Kidney Injury,2024-11-17,2024-11-20,3,Home Health Care,6,1,2,0,Yes,No,,
+P10007,Daniel Williams,53,Male,Commercial,Pneumonia,2024-05-28,2024-06-02,5,Left AMA,10,2,0,0,No,No,,
+P10008,Richard Rodriguez,78,Female,Medicare,Pneumonia,2024-07-05,2024-07-06,1,Home,12,1,2,1,Yes,No,,
+P10009,Daniel Williams,69,Male,Medicare,Acute Kidney Injury,2024-05-05,2024-05-14,9,Home,21,1,0,0,No,No,,
+P10010,Christopher Moore,49,Male,Medicare,Diabetes Complications,2024-01-29,2024-02-01,3,Home,1,1,0,1,Yes,No,,
+P10011,David Williams,72,Male,Medicare,Hip/Knee Replacement,2024-10-17,2024-10-24,7,Skilled Nursing Facility,5,4,1,0,Yes,No,,
+P10012,Richard Anderson,72,Male,Medicaid,COPD,2024-05-06,2024-05-07,1,Home Health Care,9,0,3,0,Yes,Yes,25,Inadequate discharge follow-up
+P10013,Charles Gonzalez,63,Female,Medicare,COPD,2024-03-11,2024-03-12,1,Home,8,0,2,0,Yes,No,,
+P10014,Patricia Jones,95,Male,Medicare,Diabetes Complications,2024-08-04,2024-08-11,7,Home Health Care,11,2,0,1,Yes,No,,
+P10015,Joseph Taylor,48,Female,Medicare,Hip/Knee Replacement,2024-01-06,2024-01-08,2,Home Health Care,14,0,2,0,No,No,,
+P10016,Matthew Rodriguez,77,Female,Medicare,Heart Failure,2024-08-10,2024-08-15,5,Home,7,1,4,2,Yes,Yes,25,New unrelated condition
+P10017,Thomas Garcia,40,Male,Medicaid,Stroke,2024-06-01,2024-06-09,8,Skilled Nursing Facility,10,3,2,0,Yes,Yes,8,Medication non-adherence
+P10018,Jennifer Moore,68,Male,Commercial,Pneumonia,2024-09-07,2024-09-11,4,Home,3,1,4,1,No,No,,
+P10019,Anthony Martinez,60,Male,Medicare,Heart Failure,2024-10-17,2024-10-19,2,Rehab Facility,11,3,2,0,No,Yes,17,Same diagnosis recurrence
+P10020,Sarah Jones,60,Male,Medicaid,Pneumonia,2024-10-08,2024-10-09,1,Home,9,3,4,1,Yes,No,,
+P10021,Michael Moore,49,Male,Commercial,Diabetes Complications,2024-07-23,2024-07-25,2,Left AMA,8,1,5,2,No,Yes,16,Inadequate discharge follow-up
+P10022,Linda Davis,70,Male,Medicaid,Sepsis,2024-10-28,2024-11-02,5,Home Health Care,10,2,4,1,Yes,Yes,2,Same diagnosis recurrence
+P10023,Mary Davis,56,Male,Medicare,Stroke,2024-06-18,2024-06-21,3,Home,1,1,2,0,Yes,No,,
+P10024,Michael Moore,69,Male,Medicare,Diabetes Complications,2024-10-19,2024-10-21,2,Home Health Care,10,0,5,0,Yes,No,,
+P10025,Susan Miller,53,Male,Medicare,Heart Failure,2024-08-08,2024-08-14,6,Home,4,0,2,0,No,No,,
+P10026,Mary Brown,90,Male,Medicare,Sepsis,2024-06-22,2024-06-26,4,Skilled Nursing Facility,14,1,1,0,Yes,Yes,8,Medication non-adherence
+P10027,John Wilson,71,Male,Medicare,COPD,2024-05-07,2024-05-13,6,Skilled Nursing Facility,7,1,3,0,No,No,,
+P10028,Margaret Moore,49,Male,Self-Pay,Heart Failure,2024-10-03,2024-10-06,3,Skilled Nursing Facility,17,1,1,0,No,No,,
+P10029,Margaret Davis,65,Male,Medicare,Sepsis,2024-09-03,2024-09-08,5,Home,5,2,0,2,Yes,Yes,3,Medication non-adherence
+P10030,Richard Rodriguez,95,Female,Self-Pay,COPD,2024-12-22,2024-12-24,2,Rehab Facility,8,1,0,1,Yes,No,,
+P10031,Daniel Thomas,78,Male,Medicaid,COPD,2024-04-21,2024-04-25,4,Rehab Facility,5,0,2,3,Yes,No,,
+P10032,Lisa Hernandez,78,Male,Commercial,Heart Failure,2024-09-01,2024-09-04,3,Home,12,1,3,1,No,Yes,7,Same diagnosis recurrence
+P10033,Robert Garcia,69,Male,Medicare,Pneumonia,2024-12-11,2024-12-14,3,Skilled Nursing Facility,15,1,4,0,No,No,,
+P10034,Charles Davis,81,Male,Medicaid,Pneumonia,2024-08-02,2024-08-05,3,Home Health Care,5,2,2,0,Yes,Yes,12,Post-surgical complication
+P10035,Daniel Hernandez,57,Male,Medicare,COPD,2024-03-08,2024-03-12,4,Home Health Care,6,0,5,1,Yes,Yes,12,Same diagnosis recurrence
+P10036,Karen Jackson,67,Male,Medicare,Heart Failure,2024-04-19,2024-04-23,4,Home,13,1,0,0,Yes,No,,
+P10037,Robert Davis,69,Female,Commercial,COPD,2024-08-12,2024-08-13,1,Skilled Nursing Facility,9,1,1,1,Yes,No,,
+P10038,Betty Taylor,65,Male,Commercial,Pneumonia,2024-10-10,2024-10-14,4,Home,8,3,3,1,Yes,Yes,30,Medication non-adherence
+P10039,Mark Brown,95,Male,Medicare,COPD,2024-11-05,2024-11-06,1,Home,7,1,4,0,Yes,No,,
+P10040,Margaret Rodriguez,42,Female,Medicaid,COPD,2024-01-27,2024-01-28,1,Home,9,4,0,2,Yes,No,,
+P10041,James Hernandez,68,Male,Medicaid,Pneumonia,2024-05-14,2024-05-15,1,Home,7,1,8,0,Yes,No,,
+P10042,Sarah Smith,83,Male,Medicaid,Heart Failure,2024-12-19,2024-12-20,1,Rehab Facility,10,1,4,0,No,No,,
+P10043,Charles Moore,80,Male,Commercial,Sepsis,2024-01-22,2024-01-26,4,Home,10,1,0,0,No,No,,
+P10044,Margaret Johnson,85,Female,Medicare,COPD,2024-05-07,2024-05-08,1,Home Health Care,13,2,3,1,Yes,No,,
+P10045,Margaret Wilson,36,Male,Self-Pay,Hip/Knee Replacement,2024-05-01,2024-05-04,3,Skilled Nursing Facility,7,1,0,0,No,Yes,27,Medication non-adherence
+P10046,James Garcia,70,Female,Commercial,Diabetes Complications,2024-07-29,2024-08-02,4,Skilled Nursing Facility,4,2,1,1,Yes,Yes,27,Medication non-adherence
+P10047,Betty Brown,50,Female,Commercial,Stroke,2024-08-28,2024-08-30,2,Home,7,0,2,0,Yes,No,,
+P10048,Elizabeth Davis,47,Male,Medicare,Heart Failure,2024-04-08,2024-04-10,2,Home,8,1,2,0,Yes,Yes,4,Post-surgical complication
+P10049,Thomas Gonzalez,59,Female,Medicare,Hip/Knee Replacement,2024-02-29,2024-03-01,1,Skilled Nursing Facility,5,1,4,0,Yes,No,,
+P10050,David Johnson,28,Male,Medicare,Pneumonia,2024-06-25,2024-06-26,1,Home Health Care,8,1,1,0,Yes,Yes,21,Inadequate discharge follow-up
+P10051,Mark Jackson,67,Male,Medicaid,COPD,2024-12-28,2025-01-03,6,Home,7,0,3,0,No,No,,
+P10052,Nancy Miller,87,Female,Commercial,Sepsis,2024-12-06,2024-12-14,8,Rehab Facility,2,2,0,0,Yes,Yes,23,Same diagnosis recurrence
+P10053,Elizabeth Taylor,53,Female,Medicare,Pneumonia,2024-06-16,2024-06-18,2,Home,4,1,2,0,Yes,No,,
+P10054,Susan Gonzalez,55,Male,Commercial,Pneumonia,2024-06-03,2024-06-05,2,Home,11,3,2,0,Yes,No,,
+P10055,Michael Wilson,37,Female,Medicaid,Acute Kidney Injury,2024-08-14,2024-08-17,3,Home Health Care,1,1,1,0,No,No,,
+P10056,Betty Garcia,76,Male,Medicare,COPD,2024-12-05,2024-12-07,2,Home Health Care,11,2,4,0,No,No,,
+P10057,Matthew Davis,65,Female,Medicare,COPD,2024-04-11,2024-04-14,3,Home,7,1,2,0,No,No,,
+P10058,Karen Williams,65,Female,Commercial,Sepsis,2024-11-18,2024-11-24,6,Home Health Care,6,2,2,0,Yes,Yes,14,Infection
+P10059,John Smith,60,Male,Self-Pay,Diabetes Complications,2024-04-22,2024-04-28,6,Home,8,0,1,2,Yes,No,,
+P10060,Mary Moore,76,Male,Commercial,Hip/Knee Replacement,2024-03-03,2024-03-10,7,Home,8,0,2,0,Yes,No,,
+P10061,Sarah Martin,71,Female,Commercial,Hip/Knee Replacement,2024-08-14,2024-08-18,4,Home Health Care,13,0,5,0,Yes,No,,
+P10062,Anthony Moore,56,Female,Commercial,Stroke,2024-08-31,2024-09-01,1,Home,13,1,1,1,No,No,,
+P10063,David Taylor,65,Female,Commercial,Pneumonia,2024-05-20,2024-05-26,6,Home,8,0,4,1,Yes,Yes,9,Post-surgical complication
+P10064,Mark Moore,71,Male,Medicare,Heart Failure,2024-04-28,2024-05-01,3,Home,12,1,1,0,Yes,Yes,8,Same diagnosis recurrence
+P10065,William Moore,77,Female,Medicare,Sepsis,2024-04-15,2024-04-16,1,Skilled Nursing Facility,2,1,1,0,No,No,,
+P10066,Daniel Smith,76,Female,Medicare,Acute Kidney Injury,2024-06-29,2024-07-02,3,Home,15,0,2,1,Yes,Yes,30,Infection
+P10067,Lisa Moore,82,Male,Medicare,Acute Kidney Injury,2024-05-19,2024-05-22,3,Home,8,0,2,1,Yes,Yes,12,New unrelated condition
+P10068,Richard Garcia,95,Female,Commercial,Hip/Knee Replacement,2024-11-14,2024-11-15,1,Home,6,1,1,0,Yes,No,,
+P10069,Nancy Smith,88,Male,Medicare,Pneumonia,2024-03-10,2024-03-11,1,Skilled Nursing Facility,4,1,2,0,Yes,Yes,10,Infection
+P10070,Joseph Hernandez,75,Female,Self-Pay,Diabetes Complications,2024-07-13,2024-07-14,1,Home,8,0,0,1,No,Yes,15,Post-surgical complication
+P10071,Jessica Smith,61,Male,Medicare,Hip/Knee Replacement,2024-06-28,2024-07-04,6,Home,9,2,1,0,No,No,,
+P10072,Mary Smith,69,Male,Medicare,COPD,2024-01-11,2024-01-12,1,Home Health Care,3,1,3,0,Yes,Yes,17,New unrelated condition
+P10073,Michael Anderson,50,Female,Self-Pay,Diabetes Complications,2024-03-26,2024-04-02,7,Home Health Care,7,1,2,0,No,Yes,24,Same diagnosis recurrence
+P10074,Jennifer Martinez,43,Male,Commercial,Acute Kidney Injury,2024-06-08,2024-06-12,4,Home Health Care,8,1,1,1,No,Yes,14,Infection
+P10075,Michael Williams,48,Male,Medicaid,Heart Failure,2024-06-03,2024-06-13,10,Skilled Nursing Facility,14,0,2,1,No,Yes,5,Inadequate discharge follow-up
+P10076,Barbara Moore,58,Female,Medicare,Pneumonia,2024-02-05,2024-02-09,4,Home,5,1,5,1,No,Yes,29,Infection
+P10077,Patricia Wilson,41,Female,Medicaid,Pneumonia,2024-08-23,2024-08-28,5,Home Health Care,1,2,0,1,No,No,,
+P10078,Christopher Rodriguez,95,Female,Commercial,Acute Kidney Injury,2024-10-30,2024-11-02,3,Home,10,2,0,1,No,No,,
+P10079,Robert Rodriguez,55,Female,Commercial,COPD,2024-08-25,2024-08-26,1,Home Health Care,7,4,1,1,Yes,No,,
+P10080,Jessica Hernandez,70,Male,Medicare,Acute Kidney Injury,2024-06-30,2024-07-04,4,Skilled Nursing Facility,11,0,6,1,No,No,,
+P10081,Daniel Rodriguez,66,Male,Commercial,Acute Kidney Injury,2024-04-07,2024-04-11,4,Home,6,0,3,0,Yes,No,,
+P10082,Matthew Davis,87,Female,Medicare,Pneumonia,2024-09-08,2024-09-12,4,Home,11,1,1,0,Yes,No,,
+P10083,Richard Davis,68,Female,Medicaid,Pneumonia,2024-07-07,2024-07-13,6,Home,8,3,5,0,Yes,No,,
+P10084,Lisa Moore,57,Female,Medicare,Sepsis,2024-08-20,2024-08-23,3,Home,3,0,0,0,Yes,No,,
+P10085,Michael Hernandez,47,Male,Medicare,Diabetes Complications,2024-12-19,2024-12-20,1,Home,3,0,4,2,No,Yes,17,Post-surgical complication
+P10086,Matthew Taylor,66,Female,Medicare,Hip/Knee Replacement,2024-04-09,2024-04-14,5,Home,1,0,2,0,Yes,Yes,11,Same diagnosis recurrence
+P10087,John Rodriguez,65,Male,Self-Pay,Hip/Knee Replacement,2024-10-10,2024-10-12,2,Home,3,1,1,1,Yes,No,,
+P10088,Matthew Thomas,50,Male,Medicaid,Stroke,2024-10-20,2024-10-24,4,Home,5,5,2,0,Yes,No,,
+P10089,Mary Rodriguez,57,Female,Medicare,Heart Failure,2024-02-03,2024-02-04,1,Home,7,1,3,1,Yes,No,,
+P10090,Mary Jones,37,Male,Medicare,Diabetes Complications,2024-06-04,2024-06-09,5,Home,10,5,2,1,Yes,Yes,19,Infection
+P10091,Betty Martin,81,Male,Medicaid,Diabetes Complications,2024-07-13,2024-07-16,3,Home,8,1,0,2,No,Yes,29,Inadequate discharge follow-up
+P10092,Elizabeth Jackson,67,Male,Medicare,Pneumonia,2024-02-20,2024-02-23,3,Rehab Facility,11,2,4,1,Yes,No,,
+P10093,Nancy Williams,42,Male,Medicare,COPD,2024-10-09,2024-10-11,2,Home,8,1,1,1,Yes,No,,
+P10094,Karen Thomas,55,Female,Commercial,Heart Failure,2024-05-27,2024-05-31,4,Home Health Care,7,2,3,0,Yes,No,,
+P10095,Nancy Davis,31,Female,Commercial,Diabetes Complications,2024-11-16,2024-11-17,1,Home Health Care,10,2,3,1,Yes,No,,
+P10096,Patricia Moore,78,Male,Medicare,Pneumonia,2024-05-16,2024-05-19,3,Skilled Nursing Facility,2,3,3,2,Yes,Yes,7,Post-surgical complication
+P10097,Anthony Jackson,87,Female,Commercial,Acute Kidney Injury,2024-08-27,2024-08-31,4,Home Health Care,10,1,2,0,No,No,,
+P10098,Thomas Moore,66,Female,Medicaid,Acute Kidney Injury,2024-11-02,2024-11-04,2,Home,5,1,2,0,Yes,No,,
+P10099,David Smith,79,Male,Medicaid,COPD,2024-12-11,2024-12-17,6,Skilled Nursing Facility,9,0,0,0,No,Yes,2,New unrelated condition
+P10100,Charles Johnson,95,Male,Medicare,Acute Kidney Injury,2024-11-29,2024-12-02,3,Home,7,1,1,0,Yes,Yes,20,Infection
+P10101,Jessica Williams,64,Female,Medicare,Sepsis,2024-06-19,2024-06-20,1,Home,6,2,0,0,Yes,No,,
+P10102,Susan Thomas,92,Female,Medicaid,Pneumonia,2024-07-24,2024-07-28,4,Skilled Nursing Facility,11,2,4,1,Yes,Yes,16,Same diagnosis recurrence
+P10103,William Brown,74,Female,Medicaid,Stroke,2024-01-01,2024-01-02,1,Home Health Care,5,2,4,1,Yes,Yes,15,Same diagnosis recurrence
+P10104,Barbara Martin,81,Female,Medicaid,Pneumonia,2024-01-27,2024-01-30,3,Home,6,1,4,1,No,No,,
+P10105,Joseph Thomas,89,Male,Medicare,Heart Failure,2024-11-18,2024-11-21,3,Home Health Care,11,2,1,1,Yes,No,,
+P10106,Sarah Smith,69,Female,Medicare,Heart Failure,2024-02-28,2024-03-01,2,Home,10,1,1,0,No,No,,
+P10107,Jessica Martinez,58,Female,Medicare,Sepsis,2024-09-04,2024-09-05,1,Left AMA,12,0,1,1,No,Yes,19,Medication non-adherence
+P10108,Sandra Martin,30,Male,Commercial,Stroke,2024-05-21,2024-05-25,4,Skilled Nursing Facility,1,2,0,0,Yes,No,,
+P10109,Betty Taylor,57,Female,Commercial,Diabetes Complications,2024-05-24,2024-05-26,2,Home Health Care,16,3,1,0,Yes,No,,
+P10110,Nancy Thomas,61,Male,Medicaid,Acute Kidney Injury,2024-09-04,2024-09-05,1,Home,8,0,2,0,Yes,No,,
+P10111,Joseph Hernandez,32,Male,Medicare,Hip/Knee Replacement,2024-05-02,2024-05-08,6,Home Health Care,9,2,0,0,No,No,,
+P10112,Mary Hernandez,48,Female,Commercial,Diabetes Complications,2024-07-14,2024-07-19,5,Home,5,1,4,2,No,Yes,28,New unrelated condition
+P10113,Jessica Johnson,94,Male,Medicare,Acute Kidney Injury,2024-10-29,2024-11-02,4,Home,9,0,1,1,No,No,,
+P10114,Patricia Taylor,62,Female,Commercial,Heart Failure,2024-03-14,2024-03-18,4,Home,9,3,4,1,Yes,No,,
+P10115,Jessica Rodriguez,86,Female,Commercial,Pneumonia,2024-07-22,2024-07-23,1,Home Health Care,1,1,1,0,No,Yes,29,New unrelated condition
+P10116,Richard Hernandez,90,Female,Medicare,Stroke,2024-01-19,2024-01-26,7,Home Health Care,1,2,2,0,Yes,No,,
+P10117,Elizabeth Davis,53,Male,Commercial,Sepsis,2024-02-20,2024-03-05,14,Skilled Nursing Facility,10,3,0,0,Yes,No,,
+P10118,Jennifer Martinez,59,Male,Medicare,Heart Failure,2024-01-29,2024-02-02,4,Home,4,1,3,0,Yes,No,,
+P10119,Thomas Wilson,59,Male,Medicare,Heart Failure,2024-02-10,2024-02-11,1,Home Health Care,11,0,2,0,Yes,No,,
+P10120,Jessica Jackson,66,Male,Medicare,COPD,2024-11-22,2024-11-23,1,Home,7,2,3,2,Yes,No,,
+P10121,Betty Anderson,72,Female,Self-Pay,Diabetes Complications,2024-03-21,2024-03-28,7,Home,6,1,3,1,No,No,,
+P10122,Elizabeth Wilson,95,Female,Medicare,Acute Kidney Injury,2024-06-03,2024-06-04,1,Home,10,0,0,0,Yes,No,,
+P10123,Linda Gonzalez,70,Female,Self-Pay,Acute Kidney Injury,2024-12-24,2024-12-31,7,Home,16,1,2,0,Yes,No,,
+P10124,David Smith,90,Male,Commercial,Hip/Knee Replacement,2024-09-11,2024-09-13,2,Skilled Nursing Facility,9,1,0,0,No,No,,
+P10125,Linda Martin,55,Female,Commercial,COPD,2024-04-07,2024-04-09,2,Home Health Care,3,1,0,0,No,No,,
+P10126,Nancy Jones,67,Male,Commercial,Stroke,2024-11-26,2024-11-27,1,Home,9,1,3,2,Yes,No,,
+P10127,Barbara Jones,95,Male,Medicare,Hip/Knee Replacement,2024-06-16,2024-06-17,1,Home Health Care,10,0,5,0,Yes,No,,
+P10128,Sarah Lopez,65,Female,Self-Pay,Stroke,2024-05-11,2024-05-17,6,Rehab Facility,17,0,3,1,No,No,,
+P10129,Elizabeth Hernandez,70,Male,Self-Pay,Acute Kidney Injury,2024-02-08,2024-02-09,1,Home,2,2,4,0,No,No,,
+P10130,Lisa Gonzalez,57,Female,Medicaid,Heart Failure,2024-07-21,2024-07-26,5,Home,8,3,0,1,Yes,No,,
+P10131,Nancy Rodriguez,62,Female,Medicare,Diabetes Complications,2024-07-09,2024-07-14,5,Home,4,3,2,2,Yes,No,,
+P10132,Mark Moore,46,Female,Commercial,Hip/Knee Replacement,2024-04-23,2024-04-25,2,Home Health Care,10,1,1,0,Yes,No,,
+P10133,Daniel Martinez,64,Female,Medicare,Heart Failure,2024-01-24,2024-01-29,5,Rehab Facility,2,0,2,0,Yes,No,,
+P10134,Patricia Davis,66,Male,Commercial,Sepsis,2024-07-08,2024-07-10,2,Home Health Care,5,0,0,0,No,No,,
+P10135,Susan Jackson,57,Male,Medicaid,Stroke,2024-12-01,2024-12-04,3,Home,5,2,1,1,Yes,No,,
+P10136,David Johnson,42,Female,Commercial,COPD,2024-08-15,2024-08-18,3,Rehab Facility,12,2,1,0,Yes,Yes,5,New unrelated condition
+P10137,Mark Lopez,58,Male,Self-Pay,Sepsis,2024-04-07,2024-04-09,2,Rehab Facility,9,0,4,0,Yes,Yes,28,Infection
+P10138,Michael Martin,32,Male,Medicare,Heart Failure,2024-06-19,2024-07-01,12,Home,7,0,3,0,Yes,No,,
+P10139,Robert Moore,49,Male,Medicare,Acute Kidney Injury,2024-04-29,2024-05-03,4,Home,8,2,2,0,No,No,,
+P10140,James Rodriguez,95,Male,Medicare,Hip/Knee Replacement,2024-10-03,2024-10-05,2,Home,9,1,1,0,Yes,No,,
+P10141,James Jones,76,Male,Medicare,Sepsis,2024-05-01,2024-05-04,3,Home Health Care,8,1,0,0,Yes,No,,
+P10142,John Wilson,51,Male,Medicare,Diabetes Complications,2024-08-31,2024-09-08,8,Home,12,1,0,0,Yes,No,,
+P10143,Joseph Taylor,53,Male,Commercial,Hip/Knee Replacement,2024-01-23,2024-01-24,1,Home Health Care,11,0,3,1,Yes,Yes,23,Inadequate discharge follow-up
+P10144,Christopher Smith,85,Male,Medicare,Hip/Knee Replacement,2024-07-24,2024-07-29,5,Home,5,2,3,2,Yes,No,,
+P10145,Joseph Williams,64,Male,Medicare,Sepsis,2024-03-16,2024-03-17,1,Home,1,2,2,0,Yes,Yes,22,Inadequate discharge follow-up
+P10146,William Gonzalez,68,Female,Commercial,Acute Kidney Injury,2024-11-05,2024-11-09,4,Home,7,3,1,1,Yes,No,,
+P10147,Christopher Moore,68,Male,Commercial,Sepsis,2024-04-26,2024-04-29,3,Home,7,1,4,0,No,Yes,14,Infection
+P10148,William Wilson,92,Female,Commercial,Pneumonia,2024-07-10,2024-07-15,5,Rehab Facility,13,0,0,0,Yes,No,,
+P10149,Robert Williams,74,Male,Medicaid,Sepsis,2024-07-09,2024-07-12,3,Skilled Nursing Facility,4,0,1,1,Yes,Yes,20,Inadequate discharge follow-up
+P10150,Nancy Brown,68,Female,Medicaid,Sepsis,2024-12-06,2024-12-15,9,Rehab Facility,4,2,3,0,No,No,,
+P10151,Mary Martinez,74,Female,Medicare,Sepsis,2024-10-22,2024-10-27,5,Home,9,1,3,1,Yes,No,,
+P10152,Margaret Brown,95,Female,Medicare,Stroke,2024-07-07,2024-07-09,2,Home,14,2,2,1,No,Yes,9,Infection
+P10153,Matthew Martin,95,Male,Medicare,Pneumonia,2024-12-02,2024-12-09,7,Skilled Nursing Facility,5,2,2,0,Yes,Yes,7,Post-surgical complication
+P10154,Elizabeth Hernandez,88,Female,Medicare,Heart Failure,2024-03-14,2024-03-19,5,Home Health Care,8,2,3,0,Yes,No,,
+P10155,Christopher Smith,73,Male,Medicaid,Diabetes Complications,2024-04-20,2024-04-22,2,Home,3,0,2,0,Yes,No,,
+P10156,Elizabeth Hernandez,80,Male,Medicaid,Stroke,2024-03-20,2024-03-23,3,Home,10,1,0,0,Yes,No,,
+P10157,David Anderson,55,Female,Medicare,Acute Kidney Injury,2024-08-14,2024-08-17,3,Home,9,0,1,1,Yes,Yes,18,Same diagnosis recurrence
+P10158,Patricia Martinez,46,Female,Medicare,Acute Kidney Injury,2024-06-06,2024-06-07,1,Home,4,1,3,0,Yes,No,,
+P10159,James Miller,25,Female,Medicare,Hip/Knee Replacement,2024-03-11,2024-03-17,6,Skilled Nursing Facility,8,2,3,0,Yes,No,,
+P10160,Jessica Wilson,65,Male,Medicaid,Heart Failure,2024-09-29,2024-10-03,4,Home Health Care,2,2,1,0,No,Yes,28,New unrelated condition
+P10161,Robert Gonzalez,67,Male,Commercial,Sepsis,2024-08-23,2024-08-30,7,Rehab Facility,6,2,1,0,Yes,No,,
+P10162,Charles Gonzalez,66,Female,Medicare,COPD,2024-07-26,2024-07-31,5,Home,11,2,3,0,No,No,,
+P10163,Karen Anderson,53,Female,Medicaid,Heart Failure,2024-02-24,2024-02-25,1,Home,12,1,3,3,Yes,Yes,18,Same diagnosis recurrence
+P10164,Elizabeth Hernandez,51,Male,Commercial,Sepsis,2024-03-27,2024-04-02,6,Home,7,1,3,1,Yes,No,,
+P10165,Michael Lopez,78,Female,Medicare,Diabetes Complications,2024-11-26,2024-11-28,2,Skilled Nursing Facility,12,2,5,0,Yes,No,,
+P10166,Michael Garcia,72,Male,Self-Pay,Diabetes Complications,2024-12-01,2024-12-03,2,Home,6,2,1,0,Yes,No,,
+P10167,Joseph Jackson,64,Female,Self-Pay,Diabetes Complications,2024-10-16,2024-10-25,9,Home Health Care,9,2,1,1,Yes,No,,
+P10168,Christopher Hernandez,63,Male,Medicare,Acute Kidney Injury,2024-08-28,2024-09-08,11,Home,8,0,4,1,Yes,No,,
+P10169,Mary Lopez,61,Male,Medicare,COPD,2024-08-19,2024-08-27,8,Home,13,1,1,2,Yes,No,,
+P10170,Christopher Williams,63,Female,Commercial,Acute Kidney Injury,2024-10-10,2024-10-20,10,Rehab Facility,6,1,2,1,Yes,No,,
+P10171,Sandra Jackson,83,Male,Self-Pay,Sepsis,2024-08-31,2024-09-01,1,Home,9,0,3,1,No,Yes,16,Same diagnosis recurrence
+P10172,Anthony Hernandez,59,Male,Commercial,Acute Kidney Injury,2024-03-29,2024-04-03,5,Home,8,3,0,2,No,No,,
+P10173,Thomas Taylor,81,Male,Commercial,Sepsis,2024-05-24,2024-05-27,3,Home,9,0,0,0,Yes,No,,
+P10174,Mary Hernandez,62,Male,Medicare,Sepsis,2024-10-12,2024-10-15,3,Home Health Care,9,2,4,1,No,No,,
+P10175,Nancy Martin,69,Male,Commercial,Sepsis,2024-10-25,2024-10-27,2,Home Health Care,7,0,2,0,Yes,Yes,11,New unrelated condition
+P10176,Richard Jones,58,Male,Medicare,COPD,2024-07-11,2024-07-17,6,Home Health Care,14,0,2,0,Yes,No,,
+P10177,Daniel Taylor,52,Male,Medicare,Pneumonia,2024-08-04,2024-08-07,3,Home,4,0,3,2,Yes,No,,
+P10178,Michael Hernandez,67,Female,Medicare,COPD,2024-03-11,2024-03-20,9,Home,6,2,2,1,Yes,Yes,27,Same diagnosis recurrence
+P10179,Sarah Taylor,59,Male,Medicare,Pneumonia,2024-11-12,2024-11-13,1,Home,8,2,1,0,Yes,No,,
+P10180,Anthony Martin,72,Male,Commercial,Diabetes Complications,2024-01-23,2024-01-26,3,Home,1,1,1,0,Yes,Yes,9,Infection
+P10181,Matthew Anderson,59,Male,Commercial,Acute Kidney Injury,2024-06-07,2024-06-09,2,Rehab Facility,9,2,1,0,No,No,,
+P10182,Michael Lopez,95,Female,Medicaid,Acute Kidney Injury,2024-05-24,2024-05-31,7,Skilled Nursing Facility,8,2,2,0,Yes,No,,
+P10183,Jennifer Miller,76,Male,Commercial,Stroke,2024-01-27,2024-02-05,9,Home Health Care,6,1,0,1,Yes,No,,
+P10184,Patricia Taylor,66,Male,Commercial,COPD,2024-03-23,2024-03-24,1,Home,5,2,4,0,Yes,No,,
+P10185,Susan Williams,67,Male,Medicare,Diabetes Complications,2024-06-27,2024-07-03,6,Rehab Facility,5,1,1,0,Yes,No,,
+P10186,Barbara Davis,69,Female,Medicare,Hip/Knee Replacement,2024-07-10,2024-07-13,3,Home,1,0,3,0,Yes,No,,
+P10187,Daniel Hernandez,53,Male,Medicaid,Heart Failure,2024-05-26,2024-06-05,10,Rehab Facility,4,3,2,2,No,No,,
+P10188,Matthew Thomas,46,Female,Medicare,Pneumonia,2024-02-10,2024-02-17,7,Home,12,0,2,0,No,Yes,6,Inadequate discharge follow-up
+P10189,Karen Taylor,64,Female,Medicare,Heart Failure,2024-05-27,2024-05-30,3,Home,5,1,1,1,Yes,No,,
+P10190,Christopher Martin,60,Female,Medicare,Heart Failure,2024-09-12,2024-09-23,11,Home Health Care,6,1,2,0,Yes,Yes,18,Inadequate discharge follow-up
+P10191,John Martinez,46,Female,Medicare,Heart Failure,2024-06-29,2024-07-01,2,Home,6,2,5,1,Yes,Yes,23,New unrelated condition
+P10192,Barbara Williams,89,Male,Medicare,Sepsis,2024-08-28,2024-08-29,1,Home,3,0,3,1,No,Yes,13,Post-surgical complication
+P10193,Barbara Williams,43,Female,Commercial,COPD,2024-12-02,2024-12-03,1,Home Health Care,1,1,3,0,No,No,,
+P10194,William Jones,75,Male,Medicare,Sepsis,2024-06-22,2024-06-29,7,Skilled Nursing Facility,15,0,0,0,No,No,,
+P10195,Joseph Thomas,39,Male,Self-Pay,Diabetes Complications,2024-02-02,2024-02-06,4,Home Health Care,9,2,4,1,Yes,No,,
+P10196,Michael Johnson,71,Male,Medicaid,Stroke,2024-06-10,2024-06-13,3,Rehab Facility,9,1,2,0,No,No,,
+P10197,Sarah Thomas,95,Female,Medicare,Heart Failure,2024-11-27,2024-11-30,3,Home,7,4,4,0,No,No,,
+P10198,Margaret Hernandez,68,Female,Medicare,Heart Failure,2024-07-07,2024-07-12,5,Home,1,1,3,0,Yes,Yes,16,Infection
+P10199,Jennifer Thomas,82,Female,Medicare,Sepsis,2024-09-22,2024-09-24,2,Home,11,1,1,2,Yes,No,,
+P10200,Susan Martin,72,Male,Medicare,Acute Kidney Injury,2024-06-13,2024-06-21,8,Home,10,1,0,0,Yes,No,,
+P10201,Joseph Martin,53,Female,Medicare,Heart Failure,2024-08-15,2024-08-18,3,Home,8,1,1,1,No,No,,
+P10202,Barbara Martin,61,Female,Commercial,COPD,2024-01-30,2024-02-04,5,Home,11,0,1,0,Yes,No,,
+P10203,Betty Garcia,77,Male,Medicaid,Heart Failure,2024-11-07,2024-11-10,3,Home Health Care,1,3,3,1,Yes,No,,
+P10204,Linda Lopez,61,Female,Medicare,Sepsis,2024-10-17,2024-10-21,4,Home,6,4,2,0,Yes,Yes,16,Post-surgical complication
+P10205,Matthew Williams,69,Male,Medicare,Acute Kidney Injury,2024-07-22,2024-07-23,1,Home,4,0,0,0,No,No,,
+P10206,James Garcia,81,Female,Commercial,Acute Kidney Injury,2024-10-14,2024-10-16,2,Home,8,0,2,0,Yes,No,,
+P10207,Michael Martin,75,Female,Medicare,Diabetes Complications,2024-09-08,2024-09-10,2,Home,9,2,3,1,Yes,No,,
+P10208,Jennifer Anderson,67,Male,Commercial,Diabetes Complications,2024-06-12,2024-06-19,7,Home Health Care,12,3,2,0,Yes,No,,
+P10209,Elizabeth Martinez,64,Male,Commercial,Diabetes Complications,2024-12-24,2024-12-29,5,Home Health Care,2,1,4,0,Yes,No,,
+P10210,Patricia Miller,60,Male,Medicaid,COPD,2024-09-09,2024-09-16,7,Home,7,2,3,0,Yes,No,,
+P10211,Betty Moore,49,Male,Medicare,Pneumonia,2024-02-14,2024-02-19,5,Home,4,0,2,0,Yes,Yes,24,New unrelated condition
+P10212,Susan Wilson,41,Male,Medicaid,Heart Failure,2024-06-11,2024-06-12,1,Home Health Care,3,0,2,0,Yes,No,,
+P10213,Barbara Jones,63,Male,Commercial,Diabetes Complications,2024-03-07,2024-03-10,3,Home,16,1,2,1,Yes,No,,
+P10214,Patricia Taylor,67,Male,Commercial,COPD,2024-03-23,2024-03-26,3,Home,8,0,3,0,No,Yes,13,Inadequate discharge follow-up
+P10215,Margaret Williams,79,Female,Commercial,COPD,2024-10-09,2024-10-10,1,Home,8,2,0,0,Yes,Yes,21,Inadequate discharge follow-up
+P10216,Christopher Garcia,67,Male,Medicaid,Heart Failure,2024-11-15,2024-11-18,3,Home Health Care,1,1,1,4,Yes,Yes,28,Inadequate discharge follow-up
+P10217,Margaret Smith,53,Male,Medicare,Heart Failure,2024-11-24,2024-11-26,2,Skilled Nursing Facility,13,1,2,1,Yes,Yes,8,Inadequate discharge follow-up
+P10218,Christopher Smith,72,Female,Self-Pay,Stroke,2024-10-06,2024-10-09,3,Home,9,2,0,0,Yes,No,,
+P10219,Betty Gonzalez,46,Female,Medicaid,Acute Kidney Injury,2024-12-18,2024-12-21,3,Home,1,2,3,0,Yes,Yes,17,Infection
+P10220,Karen Jones,66,Female,Commercial,Stroke,2024-06-12,2024-06-15,3,Home Health Care,3,0,6,4,No,Yes,14,Medication non-adherence
+P10221,Thomas Moore,95,Male,Medicaid,Sepsis,2024-08-26,2024-08-27,1,Home,8,0,2,4,Yes,No,,
+P10222,Mary Martinez,64,Female,Commercial,Stroke,2024-08-02,2024-08-03,1,Home,11,1,1,1,No,Yes,7,Post-surgical complication
+P10223,Lisa Hernandez,73,Male,Medicaid,Diabetes Complications,2024-09-12,2024-09-15,3,Left AMA,2,2,1,0,No,No,,
+P10224,Jessica Smith,73,Male,Medicare,Hip/Knee Replacement,2024-09-15,2024-09-16,1,Home,9,3,5,1,Yes,No,,
+P10225,Mary Johnson,70,Female,Medicare,Acute Kidney Injury,2024-11-30,2024-12-01,1,Home Health Care,3,0,1,1,Yes,Yes,2,Same diagnosis recurrence
+P10226,Mark Rodriguez,75,Female,Medicare,Diabetes Complications,2024-07-06,2024-07-08,2,Home,10,2,2,0,Yes,No,,
+P10227,Barbara Moore,86,Female,Medicaid,Heart Failure,2024-09-15,2024-09-17,2,Home,2,1,2,0,Yes,Yes,28,Inadequate discharge follow-up
+P10228,Patricia Jones,63,Male,Medicare,Sepsis,2024-06-22,2024-06-25,3,Home Health Care,10,2,1,1,Yes,No,,
+P10229,Karen Taylor,35,Female,Commercial,Acute Kidney Injury,2024-01-24,2024-01-28,4,Home,10,0,1,1,Yes,Yes,27,Infection
+P10230,John Martin,23,Male,Medicare,Sepsis,2024-11-09,2024-11-17,8,Home,11,1,2,0,Yes,No,,
+P10231,Anthony Martinez,87,Female,Commercial,Acute Kidney Injury,2024-09-17,2024-09-18,1,Home,8,1,1,1,No,Yes,11,Infection
+P10232,Barbara Hernandez,51,Male,Commercial,Hip/Knee Replacement,2024-10-25,2024-10-26,1,Home,11,1,4,0,No,No,,
+P10233,Christopher Smith,77,Female,Commercial,COPD,2024-12-01,2024-12-04,3,Skilled Nursing Facility,10,1,1,0,Yes,No,,
+P10234,Lisa Johnson,70,Female,Commercial,Heart Failure,2024-11-18,2024-11-23,5,Home Health Care,11,3,3,0,Yes,No,,
+P10235,Anthony Davis,63,Male,Medicare,Acute Kidney Injury,2024-12-24,2024-12-29,5,Home,11,2,2,0,Yes,No,,
+P10236,John Wilson,73,Male,Commercial,Sepsis,2024-11-09,2024-11-10,1,Rehab Facility,12,1,4,0,No,No,,
+P10237,Mary Jones,83,Male,Medicare,Acute Kidney Injury,2024-12-05,2024-12-09,4,Home,8,1,3,0,No,Yes,7,Infection
+P10238,William Moore,53,Female,Commercial,Diabetes Complications,2024-12-14,2024-12-16,2,Home Health Care,11,1,4,0,Yes,Yes,21,Infection
+P10239,Linda Rodriguez,88,Female,Commercial,COPD,2024-06-01,2024-06-03,2,Skilled Nursing Facility,4,2,2,0,Yes,No,,
+P10240,Jessica Hernandez,48,Female,Medicaid,Sepsis,2024-05-20,2024-05-26,6,Home,12,1,1,0,Yes,No,,
+P10241,Mark Gonzalez,79,Female,Medicare,Hip/Knee Replacement,2024-03-15,2024-03-16,1,Home,5,0,0,1,Yes,No,,
+P10242,Barbara Anderson,66,Female,Medicaid,Diabetes Complications,2024-04-19,2024-04-28,9,Home,12,0,3,1,No,No,,
+P10243,Daniel Rodriguez,80,Male,Medicare,Heart Failure,2024-10-27,2024-10-31,4,Home,7,3,2,0,No,No,,
+P10244,Linda Davis,68,Male,Medicare,Heart Failure,2024-06-18,2024-06-25,7,Home Health Care,6,2,1,0,No,No,,
+P10245,James Moore,61,Male,Medicare,Sepsis,2024-08-31,2024-09-06,6,Home,14,0,2,1,Yes,Yes,11,Post-surgical complication
+P10246,Mary Williams,56,Male,Medicare,Acute Kidney Injury,2024-01-20,2024-01-24,4,Rehab Facility,7,0,1,0,No,Yes,30,Medication non-adherence
+P10247,Mary Gonzalez,62,Female,Medicare,Heart Failure,2024-05-28,2024-05-30,2,Skilled Nursing Facility,14,0,2,3,Yes,No,,
+P10248,Patricia Hernandez,79,Female,Medicaid,Acute Kidney Injury,2024-11-24,2024-11-30,6,Home,11,0,3,0,No,No,,
+P10249,Margaret Taylor,68,Female,Commercial,COPD,2024-02-27,2024-03-04,6,Home,16,1,3,0,Yes,No,,
+P10250,Daniel Garcia,51,Male,Commercial,Diabetes Complications,2024-05-31,2024-06-02,2,Home Health Care,1,1,2,0,Yes,No,,
+P10251,Margaret Gonzalez,91,Female,Medicare,Acute Kidney Injury,2024-02-14,2024-02-15,1,Home,6,0,4,0,Yes,Yes,6,Infection
+P10252,Linda Smith,59,Female,Self-Pay,Sepsis,2024-08-16,2024-08-17,1,Skilled Nursing Facility,4,1,5,0,No,Yes,11,Inadequate discharge follow-up
+P10253,James Rodriguez,75,Female,Medicaid,Diabetes Complications,2024-02-01,2024-02-04,3,Home Health Care,7,2,4,2,Yes,No,,
+P10254,Nancy Taylor,50,Female,Medicare,Diabetes Complications,2024-11-23,2024-11-28,5,Rehab Facility,4,0,0,0,Yes,No,,
+P10255,Linda Jones,65,Female,Commercial,Heart Failure,2024-11-06,2024-11-16,10,Home,5,0,2,0,No,Yes,17,Inadequate discharge follow-up
+P10256,Anthony Miller,43,Male,Medicare,Diabetes Complications,2024-11-01,2024-11-02,1,Skilled Nursing Facility,5,3,3,0,Yes,No,,
+P10257,Daniel Lopez,80,Male,Medicaid,Hip/Knee Replacement,2024-02-27,2024-03-01,3,Home,3,1,1,0,Yes,No,,
+P10258,Charles Moore,65,Male,Commercial,Heart Failure,2024-09-23,2024-09-29,6,Home,7,1,1,0,Yes,No,,
+P10259,Jessica Williams,95,Female,Medicare,Diabetes Complications,2024-08-20,2024-08-27,7,Home,9,4,3,1,Yes,Yes,20,Same diagnosis recurrence
+P10260,Nancy Martinez,92,Male,Medicaid,Sepsis,2024-01-02,2024-01-10,8,Home Health Care,6,0,4,0,Yes,No,,
+P10261,Barbara Williams,60,Male,Medicaid,Hip/Knee Replacement,2024-02-05,2024-02-07,2,Left AMA,1,0,1,0,No,No,,
+P10262,Jennifer Jones,73,Female,Commercial,Sepsis,2024-07-14,2024-07-24,10,Home,6,1,2,0,Yes,No,,
+P10263,Robert Moore,68,Male,Self-Pay,Pneumonia,2024-06-27,2024-07-06,9,Home,9,3,3,0,Yes,No,,
+P10264,John Davis,87,Male,Commercial,Diabetes Complications,2024-06-01,2024-06-05,4,Home,9,4,2,1,Yes,Yes,15,Inadequate discharge follow-up
+P10265,Linda Davis,46,Female,Commercial,Sepsis,2024-05-21,2024-05-22,1,Home,11,1,4,0,Yes,Yes,26,Same diagnosis recurrence
+P10266,Nancy Wilson,61,Male,Medicare,COPD,2024-02-04,2024-02-05,1,Home,11,1,2,0,Yes,No,,
+P10267,Daniel Johnson,77,Male,Medicaid,Diabetes Complications,2024-07-24,2024-07-25,1,Home,10,0,2,0,Yes,Yes,26,Same diagnosis recurrence
+P10268,Elizabeth Davis,76,Female,Medicare,Acute Kidney Injury,2024-12-10,2024-12-12,2,Skilled Nursing Facility,9,0,7,1,No,No,,
+P10269,Nancy Taylor,76,Male,Self-Pay,Sepsis,2024-05-20,2024-05-25,5,Home,7,0,3,0,No,No,,
+P10270,Sandra Garcia,55,Female,Self-Pay,Acute Kidney Injury,2024-01-25,2024-01-30,5,Left AMA,13,0,4,1,No,No,,
+P10271,Betty Taylor,58,Female,Medicare,Diabetes Complications,2024-07-28,2024-08-06,9,Home,2,3,4,0,No,No,,
+P10272,Jessica Davis,55,Male,Medicaid,COPD,2024-12-28,2024-12-30,2,Home,8,2,4,1,Yes,Yes,3,Inadequate discharge follow-up
+P10273,Susan Moore,83,Male,Commercial,Sepsis,2024-05-10,2024-05-20,10,Home,6,2,6,0,No,No,,
+P10274,Margaret Lopez,93,Male,Medicare,Acute Kidney Injury,2024-04-07,2024-04-08,1,Home,6,2,0,1,Yes,Yes,21,Inadequate discharge follow-up
+P10275,Robert Miller,51,Male,Commercial,Acute Kidney Injury,2024-06-19,2024-06-22,3,Home,3,2,2,1,Yes,No,,
+P10276,Michael Brown,73,Female,Medicare,Hip/Knee Replacement,2024-12-22,2024-12-26,4,Home Health Care,8,1,0,0,No,No,,
+P10277,Sarah Hernandez,69,Female,Medicare,Sepsis,2024-09-30,2024-10-04,4,Home Health Care,7,0,1,0,No,Yes,13,Inadequate discharge follow-up
+P10278,Joseph Brown,52,Female,Medicare,Diabetes Complications,2024-06-12,2024-06-13,1,Rehab Facility,6,1,1,0,Yes,No,,
+P10279,Charles Davis,56,Male,Medicaid,Heart Failure,2024-10-10,2024-10-14,4,Rehab Facility,6,2,2,0,Yes,No,,
+P10280,John Miller,69,Female,Medicaid,COPD,2024-10-18,2024-10-22,4,Skilled Nursing Facility,3,0,1,1,Yes,No,,
+P10281,Nancy Hernandez,78,Female,Commercial,Diabetes Complications,2024-09-07,2024-09-09,2,Rehab Facility,3,3,5,1,Yes,No,,
+P10282,Jennifer Lopez,26,Male,Commercial,Heart Failure,2024-10-06,2024-10-09,3,Home,14,3,2,0,No,Yes,19,New unrelated condition
+P10283,Thomas Johnson,94,Male,Medicare,Hip/Knee Replacement,2024-12-08,2024-12-18,10,Home,3,1,1,1,Yes,No,,
+P10284,Christopher Davis,74,Male,Medicaid,Diabetes Complications,2024-01-05,2024-01-07,2,Home,5,3,2,0,Yes,Yes,3,Inadequate discharge follow-up
+P10285,Sandra Martin,82,Female,Medicaid,Pneumonia,2024-01-09,2024-01-13,4,Home,10,0,2,0,Yes,Yes,2,Same diagnosis recurrence
+P10286,David Moore,48,Female,Commercial,Heart Failure,2024-12-23,2024-12-27,4,Home Health Care,9,1,1,0,No,No,,
+P10287,Patricia Brown,49,Male,Commercial,COPD,2024-11-13,2024-11-15,2,Home,7,2,4,0,Yes,No,,
+P10288,Richard Williams,78,Female,Self-Pay,Hip/Knee Replacement,2024-08-23,2024-08-25,2,Home Health Care,3,3,0,0,Yes,No,,
+P10289,Nancy Williams,83,Male,Medicaid,Heart Failure,2024-07-13,2024-07-16,3,Home,7,0,1,0,Yes,No,,
+P10290,Daniel Garcia,57,Male,Medicare,Acute Kidney Injury,2024-08-10,2024-08-11,1,Home Health Care,5,2,3,0,No,No,,
+P10291,Patricia Taylor,53,Male,Medicaid,COPD,2024-12-20,2024-12-23,3,Skilled Nursing Facility,8,1,0,0,Yes,No,,
+P10292,Robert Rodriguez,84,Male,Medicare,Heart Failure,2024-06-10,2024-06-15,5,Home,8,2,1,3,Yes,No,,
+P10293,Anthony Gonzalez,78,Male,Commercial,COPD,2024-10-15,2024-10-16,1,Home,2,1,3,0,Yes,No,,
+P10294,Mark Moore,69,Female,Commercial,Sepsis,2024-03-12,2024-03-13,1,Skilled Nursing Facility,7,1,6,0,No,Yes,4,Inadequate discharge follow-up
+P10295,Barbara Johnson,71,Male,Commercial,Sepsis,2024-02-08,2024-02-09,1,Home,14,3,1,1,No,Yes,21,Infection
+P10296,William Smith,83,Female,Medicare,Diabetes Complications,2024-08-18,2024-08-21,3,Home,8,1,2,0,Yes,Yes,14,Infection
+P10297,Charles Gonzalez,91,Male,Commercial,Diabetes Complications,2024-05-31,2024-06-06,6,Skilled Nursing Facility,8,4,1,2,Yes,No,,
+P10298,John Gonzalez,62,Male,Medicare,Diabetes Complications,2024-06-11,2024-06-14,3,Home,3,1,2,0,No,No,,
+P10299,Joseph Lopez,62,Female,Medicaid,Heart Failure,2024-02-14,2024-02-15,1,Home,8,1,3,3,Yes,Yes,19,Inadequate discharge follow-up
+P10300,James Williams,57,Female,Medicare,Acute Kidney Injury,2024-11-01,2024-11-12,11,Home Health Care,2,1,2,2,Yes,No,,
+P10301,Elizabeth Wilson,74,Female,Self-Pay,Diabetes Complications,2024-10-13,2024-10-14,1,Rehab Facility,1,0,3,0,Yes,No,,
+P10302,Jennifer Gonzalez,67,Male,Medicare,Heart Failure,2024-06-03,2024-06-08,5,Home,7,1,1,2,Yes,No,,
+P10303,David Wilson,55,Female,Self-Pay,Acute Kidney Injury,2024-02-09,2024-02-13,4,Home,4,1,4,0,No,No,,
+P10304,Jessica Martin,56,Male,Self-Pay,Acute Kidney Injury,2024-03-10,2024-03-12,2,Home,14,1,1,0,Yes,No,,
+P10305,Karen Gonzalez,50,Female,Commercial,Acute Kidney Injury,2024-08-08,2024-08-11,3,Skilled Nursing Facility,5,2,5,0,No,No,,
+P10306,John Martinez,43,Female,Medicare,Pneumonia,2024-12-21,2024-12-31,10,Home,15,3,4,1,No,No,,
+P10307,William Martinez,69,Female,Medicare,Hip/Knee Replacement,2024-05-04,2024-05-18,14,Home,1,1,1,0,No,No,,
+P10308,Barbara Brown,62,Male,Commercial,Acute Kidney Injury,2024-10-06,2024-10-11,5,Home,13,3,1,0,Yes,No,,
+P10309,Lisa Anderson,45,Male,Medicare,Acute Kidney Injury,2024-05-29,2024-06-06,8,Skilled Nursing Facility,12,1,2,1,Yes,Yes,29,Infection
+P10310,John Martinez,59,Male,Commercial,COPD,2024-03-19,2024-03-20,1,Home Health Care,4,0,1,1,No,Yes,4,Infection
+P10311,Jessica Jackson,60,Female,Medicare,Acute Kidney Injury,2024-12-20,2024-12-22,2,Home,5,2,2,0,No,No,,
+P10312,Daniel Moore,62,Male,Medicare,Heart Failure,2024-05-07,2024-05-10,3,Home Health Care,9,1,3,1,Yes,Yes,22,Inadequate discharge follow-up
+P10313,Christopher Gonzalez,62,Female,Medicare,Hip/Knee Replacement,2024-08-08,2024-08-13,5,Home,9,0,3,2,Yes,No,,
+P10314,Lisa Taylor,18,Male,Commercial,Acute Kidney Injury,2024-07-19,2024-07-21,2,Home,10,0,1,1,Yes,Yes,24,Inadequate discharge follow-up
+P10315,James Thomas,26,Male,Self-Pay,COPD,2024-02-13,2024-02-14,1,Home,2,1,2,0,Yes,No,,
+P10316,Elizabeth Hernandez,72,Female,Medicaid,Diabetes Complications,2024-09-23,2024-09-25,2,Home,3,1,2,2,Yes,No,,
+P10317,Daniel Anderson,51,Female,Medicare,Heart Failure,2024-01-23,2024-02-01,9,Skilled Nursing Facility,3,0,6,1,No,No,,
+P10318,Christopher Brown,42,Male,Medicaid,Hip/Knee Replacement,2024-05-04,2024-05-14,10,Home,10,1,2,2,Yes,No,,
+P10319,Susan Anderson,33,Male,Commercial,Diabetes Complications,2024-11-18,2024-11-23,5,Home,5,1,5,0,Yes,No,,
+P10320,James Martin,75,Male,Commercial,Acute Kidney Injury,2024-08-07,2024-08-18,11,Home,11,0,2,1,No,Yes,8,Post-surgical complication
+P10321,Betty Williams,51,Male,Medicare,Diabetes Complications,2024-10-01,2024-10-05,4,Home,4,0,3,1,Yes,Yes,16,Same diagnosis recurrence
+P10322,Margaret Thomas,61,Female,Medicare,Pneumonia,2024-11-08,2024-11-10,2,Home,3,1,2,0,Yes,No,,
+P10323,Joseph Martin,94,Male,Commercial,Diabetes Complications,2024-12-27,2025-01-06,10,Skilled Nursing Facility,15,0,3,0,Yes,Yes,20,Same diagnosis recurrence
+P10324,William Brown,48,Male,Medicare,COPD,2024-04-03,2024-04-10,7,Home,10,4,1,0,Yes,No,,
+P10325,Karen Jones,68,Female,Commercial,Sepsis,2024-09-06,2024-09-14,8,Home Health Care,14,1,1,1,Yes,Yes,22,Medication non-adherence
+P10326,Jessica Martinez,51,Male,Commercial,Heart Failure,2024-08-18,2024-08-22,4,Home Health Care,11,0,2,0,Yes,Yes,2,Infection
+P10327,Anthony Gonzalez,75,Female,Commercial,Sepsis,2024-09-08,2024-09-15,7,Home,8,2,2,1,Yes,Yes,17,Medication non-adherence
+P10328,James Davis,53,Female,Medicare,Heart Failure,2024-04-25,2024-04-28,3,Home,7,4,2,0,Yes,No,,
+P10329,Lisa Thomas,68,Male,Commercial,Acute Kidney Injury,2024-05-17,2024-05-18,1,Skilled Nursing Facility,6,0,5,1,No,Yes,13,Inadequate discharge follow-up
+P10330,Mary Anderson,95,Male,Commercial,Hip/Knee Replacement,2024-02-22,2024-02-23,1,Home Health Care,6,1,2,0,No,Yes,9,Post-surgical complication
+P10331,Mary Anderson,60,Female,Self-Pay,Sepsis,2024-02-14,2024-02-18,4,Home,4,0,0,1,No,No,,
+P10332,Linda Miller,46,Female,Medicare,Stroke,2024-11-08,2024-11-14,6,Home Health Care,11,3,2,1,Yes,No,,
+P10333,Michael Miller,67,Male,Medicaid,Acute Kidney Injury,2024-09-29,2024-10-01,2,Home,7,1,4,1,Yes,Yes,12,New unrelated condition
+P10334,Charles Rodriguez,70,Male,Self-Pay,Heart Failure,2024-07-29,2024-08-01,3,Rehab Facility,7,1,2,2,No,No,,
+P10335,John Jones,56,Male,Commercial,Heart Failure,2024-06-13,2024-06-14,1,Skilled Nursing Facility,2,2,2,2,Yes,No,,
+P10336,Jessica Jones,35,Female,Commercial,Pneumonia,2024-07-11,2024-07-20,9,Home,6,0,0,1,No,No,,
+P10337,Robert Gonzalez,48,Female,Medicaid,Diabetes Complications,2024-07-07,2024-07-14,7,Home,9,2,3,0,No,Yes,20,Same diagnosis recurrence
+P10338,Margaret Williams,60,Female,Medicare,Pneumonia,2024-12-23,2024-12-24,1,Home,10,1,3,0,Yes,No,,
+P10339,Michael Wilson,87,Male,Medicare,Acute Kidney Injury,2024-06-14,2024-06-19,5,Skilled Nursing Facility,1,3,1,1,Yes,No,,
+P10340,Charles Thomas,53,Female,Commercial,Stroke,2024-01-25,2024-01-27,2,Home,2,0,1,1,No,No,,
+P10341,James Brown,88,Male,Medicaid,Acute Kidney Injury,2024-01-01,2024-01-05,4,Left AMA,12,3,4,1,No,No,,
+P10342,Sandra Jones,43,Female,Medicare,Heart Failure,2024-05-20,2024-05-24,4,Home,13,1,1,1,Yes,Yes,4,Post-surgical complication
+P10343,Christopher Garcia,72,Male,Commercial,Sepsis,2024-06-05,2024-06-07,2,Home Health Care,2,1,2,0,Yes,No,,
+P10344,Robert Brown,91,Male,Medicare,COPD,2024-02-09,2024-02-20,11,Home,10,0,0,0,Yes,Yes,23,Infection
+P10345,Daniel Hernandez,65,Male,Medicaid,Hip/Knee Replacement,2024-08-04,2024-08-16,12,Home Health Care,10,2,1,0,Yes,No,,
+P10346,Robert Brown,37,Male,Commercial,Sepsis,2024-06-02,2024-06-06,4,Home,11,0,3,0,No,No,,
+P10347,John Jones,30,Male,Medicare,Acute Kidney Injury,2024-01-05,2024-01-09,4,Home Health Care,10,1,0,0,Yes,Yes,13,New unrelated condition
+P10348,Lisa Jones,73,Female,Medicare,Pneumonia,2024-08-14,2024-08-21,7,Skilled Nursing Facility,11,0,3,0,Yes,No,,
+P10349,Matthew Brown,63,Female,Medicare,Sepsis,2024-08-07,2024-08-09,2,Home,10,2,4,1,Yes,No,,
+P10350,Robert Davis,66,Female,Commercial,Diabetes Complications,2024-12-19,2024-12-21,2,Home,13,1,2,1,Yes,Yes,30,Post-surgical complication
+P10351,Karen Taylor,28,Male,Commercial,Diabetes Complications,2024-05-31,2024-06-02,2,Home Health Care,3,1,2,0,No,No,,
+P10352,Linda Thomas,95,Female,Medicare,Heart Failure,2024-09-12,2024-09-22,10,Home Health Care,12,1,4,1,No,Yes,30,Same diagnosis recurrence
+P10353,Sandra Hernandez,54,Male,Medicaid,Sepsis,2024-10-18,2024-10-29,11,Home,2,1,2,0,Yes,No,,
+P10354,Jessica Williams,49,Male,Medicare,Acute Kidney Injury,2024-01-08,2024-01-11,3,Home,1,2,5,0,Yes,No,,
+P10355,Betty Gonzalez,83,Female,Medicaid,Pneumonia,2024-09-13,2024-09-17,4,Skilled Nursing Facility,11,1,2,0,Yes,No,,
+P10356,Christopher Moore,52,Male,Commercial,COPD,2024-06-07,2024-06-11,4,Home,8,0,2,0,No,No,,
+P10357,John Moore,43,Female,Commercial,Sepsis,2024-11-20,2024-11-27,7,Skilled Nursing Facility,10,0,4,0,Yes,No,,
+P10358,Elizabeth Wilson,74,Male,Medicare,Heart Failure,2024-02-14,2024-02-16,2,Rehab Facility,9,1,3,0,Yes,No,,
+P10359,Mary Martinez,60,Male,Medicare,Heart Failure,2024-12-28,2024-12-29,1,Home,12,0,5,3,Yes,No,,
+P10360,Barbara Taylor,72,Female,Commercial,Heart Failure,2024-03-05,2024-03-15,10,Home Health Care,1,2,1,0,No,Yes,25,Same diagnosis recurrence
+P10361,James Hernandez,64,Female,Self-Pay,COPD,2024-02-02,2024-02-06,4,Home,8,3,1,1,Yes,No,,
+P10362,Jessica Anderson,59,Female,Medicare,Heart Failure,2024-10-17,2024-10-19,2,Home,9,2,4,1,No,No,,
+P10363,Mark Jackson,67,Male,Commercial,COPD,2024-09-17,2024-09-18,1,Home,8,2,4,1,Yes,No,,
+P10364,Mary Thomas,70,Female,Self-Pay,Sepsis,2024-03-17,2024-03-19,2,Home,3,1,3,0,No,Yes,3,Inadequate discharge follow-up
+P10365,Daniel Wilson,77,Male,Medicare,Sepsis,2024-08-01,2024-08-05,4,Rehab Facility,12,2,3,0,No,No,,
+P10366,Charles Lopez,83,Male,Commercial,Acute Kidney Injury,2024-01-27,2024-02-03,7,Home,9,0,1,0,No,No,,
+P10367,Richard Williams,73,Female,Medicaid,Stroke,2024-06-08,2024-06-15,7,Home,13,1,2,0,Yes,Yes,2,Post-surgical complication
+P10368,Charles Martinez,70,Male,Self-Pay,Acute Kidney Injury,2024-10-29,2024-11-01,3,Left AMA,2,1,1,1,No,No,,
+P10369,Lisa Moore,43,Male,Medicaid,Heart Failure,2024-07-28,2024-07-31,3,Home,7,2,3,1,No,Yes,22,New unrelated condition
+P10370,William Smith,65,Female,Medicaid,Stroke,2024-06-06,2024-06-16,10,Home,11,1,1,0,Yes,Yes,9,Infection
+P10371,Mary Jones,62,Female,Medicaid,Heart Failure,2024-04-28,2024-04-30,2,Rehab Facility,10,0,0,2,Yes,No,,
+P10372,Barbara Anderson,44,Male,Commercial,Acute Kidney Injury,2024-09-15,2024-09-16,1,Home,5,0,0,1,Yes,Yes,4,Inadequate discharge follow-up
+P10373,Susan Jones,69,Male,Medicare,COPD,2024-06-10,2024-06-13,3,Rehab Facility,6,1,2,1,No,No,,
+P10374,William Hernandez,68,Female,Medicare,COPD,2024-02-08,2024-02-11,3,Rehab Facility,8,2,0,1,No,No,,
+P10375,Patricia Jones,37,Male,Medicare,Heart Failure,2024-08-26,2024-08-31,5,Home,5,1,1,0,Yes,Yes,13,Medication non-adherence
+P10376,Joseph Rodriguez,67,Male,Commercial,Heart Failure,2024-12-17,2024-12-18,1,Home,1,3,1,0,Yes,Yes,21,Same diagnosis recurrence
+P10377,Margaret Hernandez,44,Male,Medicare,Heart Failure,2024-05-07,2024-05-08,1,Rehab Facility,3,1,0,1,Yes,No,,
+P10378,Elizabeth Rodriguez,71,Male,Medicaid,Heart Failure,2024-07-26,2024-07-28,2,Skilled Nursing Facility,10,0,6,1,Yes,Yes,19,Medication non-adherence
+P10379,Patricia Jones,57,Male,Commercial,Heart Failure,2024-04-23,2024-04-24,1,Home,2,1,3,1,Yes,No,,
+P10380,Christopher Williams,66,Female,Medicare,Hip/Knee Replacement,2024-02-08,2024-02-09,1,Home,2,0,3,0,No,No,,
+P10381,Joseph Jones,35,Male,Self-Pay,Stroke,2024-06-18,2024-06-23,5,Home,7,1,3,1,No,Yes,3,Medication non-adherence
+P10382,Susan Gonzalez,68,Female,Medicare,Heart Failure,2024-12-15,2024-12-21,6,Home,7,1,1,0,No,No,,
+P10383,David Rodriguez,55,Female,Medicaid,Stroke,2024-01-18,2024-01-19,1,Home Health Care,6,0,3,0,Yes,No,,
+P10384,Jessica Wilson,61,Female,Medicare,Heart Failure,2024-05-23,2024-05-24,1,Home,6,1,0,1,Yes,No,,
+P10385,Betty Taylor,76,Male,Self-Pay,Pneumonia,2024-10-05,2024-10-07,2,Skilled Nursing Facility,2,0,0,0,No,No,,
+P10386,Barbara Thomas,63,Female,Medicare,Sepsis,2024-10-16,2024-10-19,3,Home,9,0,4,1,Yes,Yes,7,Same diagnosis recurrence
+P10387,Linda Smith,60,Female,Commercial,Heart Failure,2024-08-29,2024-08-30,1,Home,2,2,0,1,Yes,Yes,9,Medication non-adherence
+P10388,Nancy Davis,39,Female,Self-Pay,Acute Kidney Injury,2024-01-29,2024-02-01,3,Skilled Nursing Facility,7,2,4,0,Yes,No,,
+P10389,Betty Gonzalez,76,Female,Medicaid,Hip/Knee Replacement,2024-03-29,2024-04-05,7,Home,7,5,0,0,No,No,,
+P10390,Daniel Lopez,55,Male,Medicaid,Diabetes Complications,2024-06-29,2024-07-10,11,Rehab Facility,13,0,1,1,Yes,No,,
+P10391,Michael Thomas,41,Female,Medicare,Heart Failure,2024-01-20,2024-01-23,3,Home,7,2,1,1,Yes,Yes,9,Same diagnosis recurrence
+P10392,James Hernandez,72,Male,Commercial,Diabetes Complications,2024-06-23,2024-06-30,7,Home Health Care,9,0,4,1,No,No,,
+P10393,William Johnson,58,Male,Commercial,Heart Failure,2024-12-26,2024-12-27,1,Rehab Facility,1,2,2,1,No,No,,
+P10394,Margaret Lopez,88,Male,Medicare,Sepsis,2024-12-05,2024-12-10,5,Home,4,1,0,0,Yes,No,,
+P10395,John Garcia,81,Female,Medicare,Diabetes Complications,2024-09-06,2024-09-10,4,Home Health Care,10,3,1,0,No,No,,
+P10396,Daniel Martin,62,Female,Medicare,COPD,2024-10-28,2024-11-12,15,Skilled Nursing Facility,13,0,6,0,No,No,,
+P10397,Elizabeth Jones,85,Male,Medicare,Diabetes Complications,2024-12-25,2025-01-04,10,Rehab Facility,1,1,0,1,No,No,,
+P10398,Charles Johnson,69,Male,Medicaid,Pneumonia,2024-11-09,2024-11-11,2,Home,15,1,2,2,No,No,,
+P10399,John Hernandez,73,Male,Commercial,COPD,2024-06-12,2024-06-15,3,Home,14,1,2,1,Yes,No,,
+P10400,Daniel Hernandez,69,Female,Medicare,Heart Failure,2024-04-17,2024-04-19,2,Home,10,2,0,1,No,Yes,10,Same diagnosis recurrence
+P10401,Mary Gonzalez,62,Female,Medicaid,Diabetes Complications,2024-03-26,2024-03-28,2,Skilled Nursing Facility,5,0,2,0,Yes,No,,
+P10402,Sarah Gonzalez,38,Male,Commercial,Stroke,2024-10-22,2024-10-25,3,Home Health Care,4,6,2,1,Yes,No,,
+P10403,Robert Johnson,77,Female,Medicare,Heart Failure,2024-05-13,2024-05-16,3,Rehab Facility,1,2,0,0,Yes,Yes,7,Infection
+P10404,Robert Moore,68,Male,Commercial,Sepsis,2024-11-10,2024-11-13,3,Rehab Facility,9,0,1,2,Yes,No,,
+P10405,Christopher Garcia,79,Female,Self-Pay,Heart Failure,2024-02-21,2024-02-24,3,Home,9,0,3,0,Yes,Yes,15,New unrelated condition
+P10406,Sandra Moore,76,Female,Medicare,Pneumonia,2024-06-01,2024-06-06,5,Home,5,0,2,1,Yes,No,,
+P10407,Anthony Thomas,57,Male,Medicare,Heart Failure,2024-01-02,2024-01-04,2,Home,6,1,3,0,Yes,No,,
+P10408,Karen Thomas,87,Male,Medicare,Heart Failure,2024-04-15,2024-04-18,3,Home,11,0,2,3,No,Yes,4,Infection
+P10409,Elizabeth Gonzalez,80,Female,Commercial,Acute Kidney Injury,2024-12-04,2024-12-10,6,Home,10,1,1,0,Yes,No,,
+P10410,Barbara Gonzalez,54,Female,Medicaid,Heart Failure,2024-01-23,2024-01-31,8,Home,11,2,2,1,Yes,No,,
+P10411,David Jackson,88,Male,Medicare,Heart Failure,2024-12-22,2024-12-23,1,Home Health Care,4,0,1,0,Yes,Yes,13,Inadequate discharge follow-up
+P10412,Matthew Jackson,75,Male,Medicare,Acute Kidney Injury,2024-07-17,2024-07-19,2,Skilled Nursing Facility,7,1,2,1,Yes,No,,
+P10413,Margaret Thomas,59,Male,Commercial,Acute Kidney Injury,2024-02-10,2024-02-14,4,Home,7,3,4,2,Yes,No,,
+P10414,Charles Taylor,69,Male,Self-Pay,Heart Failure,2024-08-17,2024-08-19,2,Home,7,2,0,1,No,No,,
+P10415,Betty Miller,34,Male,Medicaid,Heart Failure,2024-02-10,2024-02-14,4,Left AMA,6,0,2,0,Yes,Yes,28,New unrelated condition
+P10416,Karen Rodriguez,76,Female,Medicaid,Hip/Knee Replacement,2024-02-04,2024-02-06,2,Home,4,2,4,0,No,Yes,19,Post-surgical complication
+P10417,Thomas Anderson,48,Male,Commercial,Diabetes Complications,2024-11-15,2024-11-22,7,Home Health Care,6,2,1,0,Yes,No,,
+P10418,John Jones,69,Male,Commercial,Hip/Knee Replacement,2024-10-15,2024-10-18,3,Skilled Nursing Facility,11,1,5,2,No,No,,
+P10419,Mark Lopez,67,Female,Medicaid,COPD,2024-12-01,2024-12-02,1,Home,5,1,1,1,Yes,No,,
+P10420,David Gonzalez,38,Male,Medicare,Pneumonia,2024-12-14,2024-12-15,1,Home Health Care,3,3,0,1,No,No,,
+P10421,William Davis,58,Male,Medicare,Diabetes Complications,2024-05-17,2024-05-20,3,Rehab Facility,15,2,2,0,No,No,,
+P10422,Elizabeth Martinez,56,Female,Self-Pay,Stroke,2024-12-22,2024-12-25,3,Home Health Care,12,0,4,0,Yes,No,,
+P10423,Elizabeth Anderson,57,Female,Medicare,COPD,2024-08-01,2024-08-02,1,Home Health Care,13,2,2,0,Yes,No,,
+P10424,Sandra Wilson,58,Female,Medicaid,Diabetes Complications,2024-07-10,2024-07-14,4,Skilled Nursing Facility,16,3,3,1,Yes,No,,
+P10425,Elizabeth Taylor,79,Female,Medicare,Heart Failure,2024-09-25,2024-09-28,3,Skilled Nursing Facility,4,3,3,0,No,Yes,8,Medication non-adherence
+P10426,Linda Johnson,44,Female,Medicare,Heart Failure,2024-07-03,2024-07-04,1,Home Health Care,3,1,3,0,No,No,,
+P10427,Thomas Gonzalez,82,Male,Medicaid,Diabetes Complications,2024-05-03,2024-05-10,7,Home,9,0,2,1,Yes,No,,
+P10428,Margaret Thomas,54,Female,Commercial,Sepsis,2024-05-12,2024-05-13,1,Home Health Care,7,1,2,0,Yes,Yes,11,Same diagnosis recurrence
+P10429,Jennifer Jackson,48,Male,Medicare,Stroke,2024-11-27,2024-11-28,1,Home,14,0,4,0,Yes,Yes,22,Infection
+P10430,Margaret Smith,52,Female,Commercial,Hip/Knee Replacement,2024-11-27,2024-11-28,1,Home,4,3,0,1,Yes,No,,
+P10431,Karen Martinez,63,Female,Medicaid,Sepsis,2024-07-11,2024-07-14,3,Skilled Nursing Facility,12,2,3,0,Yes,No,,
+P10432,Elizabeth Taylor,76,Female,Commercial,Acute Kidney Injury,2024-01-04,2024-01-10,6,Home,8,2,3,0,No,No,,
+P10433,Barbara Moore,53,Female,Medicare,COPD,2024-02-25,2024-02-28,3,Home,1,0,1,0,Yes,No,,
+P10434,William Rodriguez,62,Female,Medicare,Pneumonia,2024-11-29,2024-12-03,4,Home,10,3,3,1,No,Yes,26,Medication non-adherence
+P10435,Betty Martin,53,Female,Medicare,Pneumonia,2024-12-14,2024-12-18,4,Home,9,0,0,2,Yes,Yes,17,Post-surgical complication
+P10436,Susan Gonzalez,35,Female,Medicaid,Diabetes Complications,2024-10-25,2024-10-28,3,Home Health Care,12,0,1,2,No,Yes,8,Post-surgical complication
+P10437,Linda Moore,57,Female,Medicare,Hip/Knee Replacement,2024-12-09,2024-12-11,2,Home,8,2,3,1,Yes,No,,
+P10438,Nancy Moore,73,Male,Medicare,COPD,2024-08-29,2024-09-05,7,Home,11,2,1,1,No,No,,
+P10439,Matthew Garcia,55,Female,Commercial,Pneumonia,2024-04-23,2024-04-26,3,Home,10,1,3,0,Yes,No,,
+P10440,Betty Hernandez,78,Female,Medicare,COPD,2024-05-30,2024-06-01,2,Home,1,3,1,0,Yes,Yes,3,New unrelated condition
+P10441,Karen Williams,80,Female,Commercial,Stroke,2024-09-13,2024-09-17,4,Home,1,0,3,2,Yes,No,,
+P10442,Susan Johnson,28,Male,Self-Pay,Heart Failure,2024-04-12,2024-04-15,3,Home,12,1,1,1,Yes,Yes,30,Infection
+P10443,Margaret Garcia,65,Male,Medicare,Acute Kidney Injury,2024-11-19,2024-11-21,2,Left AMA,13,1,0,1,Yes,No,,
+P10444,Joseph Rodriguez,68,Male,Medicare,Diabetes Complications,2024-03-27,2024-04-04,8,Home Health Care,15,1,1,0,No,No,,
+P10445,Matthew Williams,45,Male,Medicaid,Pneumonia,2024-11-20,2024-11-25,5,Home,9,4,3,2,Yes,No,,
+P10446,James Johnson,84,Male,Commercial,Diabetes Complications,2024-01-08,2024-01-13,5,Rehab Facility,4,0,2,0,Yes,No,,
+P10447,James Smith,78,Male,Medicare,COPD,2024-06-25,2024-06-28,3,Home,3,0,2,1,Yes,No,,
+P10448,Elizabeth Garcia,74,Male,Medicaid,Diabetes Complications,2024-06-01,2024-06-02,1,Rehab Facility,2,1,1,0,Yes,No,,
+P10449,Thomas Hernandez,63,Female,Commercial,Stroke,2024-03-09,2024-03-14,5,Home,3,0,0,0,Yes,No,,
+P10450,Michael Garcia,80,Female,Medicare,Heart Failure,2024-04-24,2024-04-27,3,Home Health Care,4,0,2,0,Yes,Yes,25,Same diagnosis recurrence
+P10451,Jennifer Brown,85,Female,Commercial,Diabetes Complications,2024-01-20,2024-01-21,1,Home,12,1,5,0,No,No,,
+P10452,Karen Johnson,82,Male,Medicare,Pneumonia,2024-11-30,2024-12-06,6,Skilled Nursing Facility,5,3,2,0,Yes,No,,
+P10453,Joseph Gonzalez,69,Male,Medicare,Acute Kidney Injury,2024-08-30,2024-09-04,5,Home Health Care,7,3,2,1,Yes,No,,
+P10454,James Martinez,60,Female,Commercial,Pneumonia,2024-12-05,2024-12-10,5,Home,3,1,4,0,Yes,No,,
+P10455,Susan Brown,67,Male,Medicaid,COPD,2024-02-24,2024-02-27,3,Home,13,0,1,2,No,Yes,26,Post-surgical complication
+P10456,Michael Lopez,64,Female,Commercial,COPD,2024-01-21,2024-01-23,2,Home,12,2,3,0,Yes,Yes,24,Infection
+P10457,James Smith,75,Male,Medicare,Hip/Knee Replacement,2024-10-20,2024-10-24,4,Home Health Care,7,2,1,0,Yes,No,,
+P10458,Thomas Williams,83,Male,Self-Pay,Stroke,2024-11-25,2024-11-29,4,Home,8,3,3,1,Yes,Yes,11,Post-surgical complication
+P10459,Patricia Garcia,52,Male,Medicare,Stroke,2024-07-03,2024-07-05,2,Skilled Nursing Facility,8,0,1,3,Yes,Yes,25,Same diagnosis recurrence
+P10460,Matthew Johnson,31,Male,Medicare,Stroke,2024-12-05,2024-12-08,3,Home Health Care,6,1,3,0,No,No,,
+P10461,Karen Rodriguez,42,Male,Medicare,Sepsis,2024-06-24,2024-06-28,4,Home,12,1,1,2,No,No,,
+P10462,David Gonzalez,70,Female,Medicare,Diabetes Complications,2024-11-28,2024-11-29,1,Skilled Nursing Facility,1,3,1,1,No,Yes,6,New unrelated condition
+P10463,Margaret Garcia,60,Male,Medicaid,Sepsis,2024-10-29,2024-11-03,5,Home,16,1,0,0,Yes,No,,
+P10464,Karen Gonzalez,72,Female,Commercial,Pneumonia,2024-12-16,2024-12-25,9,Skilled Nursing Facility,6,0,4,0,No,No,,
+P10465,Jessica Thomas,44,Male,Medicare,Stroke,2024-08-13,2024-08-20,7,Home,9,0,2,2,Yes,No,,
+P10466,Daniel Taylor,47,Male,Medicaid,Hip/Knee Replacement,2024-12-08,2024-12-17,9,Skilled Nursing Facility,5,0,1,0,Yes,No,,
+P10467,Karen Brown,62,Female,Commercial,Pneumonia,2024-05-07,2024-05-11,4,Home,6,0,0,1,Yes,No,,
+P10468,John Moore,68,Male,Medicaid,Heart Failure,2024-03-21,2024-03-22,1,Home,2,3,2,1,Yes,No,,
+P10469,Jennifer Williams,71,Female,Medicare,Sepsis,2024-06-18,2024-06-23,5,Left AMA,9,2,3,0,No,No,,
+P10470,Christopher Gonzalez,69,Female,Commercial,Diabetes Complications,2024-02-10,2024-02-13,3,Home,6,2,2,0,Yes,No,,
+P10471,Margaret Thomas,89,Female,Medicare,Sepsis,2024-09-11,2024-09-14,3,Home Health Care,9,0,2,1,Yes,Yes,14,Infection
+P10472,Sarah Smith,48,Male,Commercial,Diabetes Complications,2024-11-12,2024-11-13,1,Home Health Care,10,3,2,1,Yes,No,,
+P10473,Christopher Anderson,73,Female,Commercial,Sepsis,2024-01-28,2024-01-30,2,Skilled Nursing Facility,5,1,2,1,Yes,No,,
+P10474,Matthew Martin,68,Female,Medicare,Diabetes Complications,2024-07-05,2024-07-06,1,Home Health Care,8,0,0,1,No,No,,
+P10475,Linda Smith,74,Female,Medicare,Sepsis,2024-11-20,2024-11-23,3,Rehab Facility,12,1,3,0,Yes,No,,
+P10476,Daniel Brown,58,Male,Commercial,Stroke,2024-09-09,2024-09-10,1,Home,9,1,2,0,Yes,Yes,25,Infection
+P10477,Karen Miller,33,Male,Commercial,Heart Failure,2024-07-20,2024-07-22,2,Home,9,1,2,0,Yes,Yes,8,New unrelated condition
+P10478,Matthew Wilson,32,Male,Commercial,Hip/Knee Replacement,2024-12-10,2024-12-19,9,Home Health Care,6,1,3,0,Yes,No,,
+P10479,Nancy Jackson,68,Male,Medicare,Hip/Knee Replacement,2024-01-03,2024-01-06,3,Home,4,1,1,0,No,No,,
+P10480,Anthony Jackson,82,Female,Medicare,Hip/Knee Replacement,2024-03-31,2024-04-05,5,Home Health Care,7,1,1,2,Yes,Yes,28,Medication non-adherence
+P10481,Nancy Martin,73,Female,Medicaid,Acute Kidney Injury,2024-07-15,2024-07-20,5,Home,4,1,0,1,Yes,Yes,24,Medication non-adherence
+P10482,William Martinez,56,Female,Commercial,Diabetes Complications,2024-03-11,2024-03-14,3,Home,4,2,0,0,No,No,,
+P10483,Elizabeth Moore,55,Female,Medicare,Diabetes Complications,2024-10-10,2024-10-15,5,Home Health Care,17,3,1,0,Yes,No,,
+P10484,Elizabeth Lopez,60,Male,Medicare,Hip/Knee Replacement,2024-11-28,2024-11-30,2,Left AMA,9,0,1,0,No,Yes,19,New unrelated condition
+P10485,Daniel Brown,22,Female,Commercial,Acute Kidney Injury,2024-10-25,2024-10-27,2,Home Health Care,8,0,2,1,No,Yes,15,New unrelated condition
+P10486,Anthony Moore,55,Female,Medicaid,Stroke,2024-08-04,2024-08-10,6,Skilled Nursing Facility,1,0,3,1,Yes,Yes,2,Infection
+P10487,Nancy Johnson,79,Male,Commercial,COPD,2024-03-23,2024-03-31,8,Left AMA,8,0,2,0,Yes,No,,
+P10488,Mary Martinez,70,Male,Medicaid,Diabetes Complications,2024-01-17,2024-01-23,6,Home,7,0,2,1,Yes,No,,
+P10489,Nancy Moore,59,Male,Medicaid,Diabetes Complications,2024-10-14,2024-10-15,1,Home,10,0,1,0,No,No,,
+P10490,Daniel Martinez,73,Male,Commercial,Hip/Knee Replacement,2024-07-17,2024-07-18,1,Home,10,0,5,1,No,Yes,23,Post-surgical complication
+P10491,Mary Smith,81,Female,Commercial,COPD,2024-08-14,2024-08-16,2,Skilled Nursing Facility,11,2,3,0,Yes,No,,
+P10492,Christopher Lopez,69,Male,Medicare,Diabetes Complications,2024-04-09,2024-04-11,2,Home,8,0,0,0,Yes,No,,
+P10493,Jennifer Garcia,95,Male,Medicare,Sepsis,2024-08-07,2024-08-13,6,Home,6,0,4,1,No,Yes,7,Inadequate discharge follow-up
+P10494,James Hernandez,72,Female,Commercial,Diabetes Complications,2024-03-20,2024-03-21,1,Home,13,0,2,1,Yes,No,,
+P10495,Matthew Martin,71,Female,Medicare,Acute Kidney Injury,2024-10-20,2024-10-22,2,Home Health Care,11,0,3,1,Yes,No,,
+P10496,Thomas Davis,79,Male,Medicaid,Acute Kidney Injury,2024-09-15,2024-09-18,3,Home,9,2,4,1,Yes,No,,
+P10497,Barbara Davis,40,Male,Medicare,Pneumonia,2024-06-18,2024-06-19,1,Home,5,2,4,0,No,No,,
+P10498,Thomas Thomas,82,Male,Commercial,Heart Failure,2024-06-26,2024-07-15,19,Home,10,0,3,0,Yes,Yes,21,Inadequate discharge follow-up
+P10499,Mary Hernandez,69,Female,Medicaid,Hip/Knee Replacement,2024-02-28,2024-03-10,11,Home,11,0,2,0,Yes,No,,
+P10500,Sandra Taylor,50,Female,Medicare,Acute Kidney Injury,2024-09-17,2024-09-24,7,Home,9,0,3,0,No,No,,
+P10501,Michael Hernandez,65,Male,Commercial,Hip/Knee Replacement,2024-03-26,2024-03-28,2,Left AMA,8,3,1,0,No,No,,
+P10502,Christopher Williams,71,Male,Medicaid,Diabetes Complications,2024-04-19,2024-04-20,1,Skilled Nursing Facility,12,3,0,2,Yes,No,,
+P10503,Sarah Wilson,67,Male,Commercial,Diabetes Complications,2024-03-19,2024-03-25,6,Home,16,2,4,1,Yes,No,,
+P10504,Robert Johnson,53,Male,Commercial,Diabetes Complications,2024-10-12,2024-10-14,2,Home,1,2,2,1,No,No,,
+P10505,Susan Gonzalez,79,Female,Medicare,Pneumonia,2024-08-09,2024-08-11,2,Home,6,3,0,1,Yes,Yes,5,Inadequate discharge follow-up
+P10506,Lisa Martin,42,Male,Commercial,Diabetes Complications,2024-10-26,2024-10-27,1,Home,7,1,5,1,Yes,Yes,13,Inadequate discharge follow-up
+P10507,Betty Martinez,65,Male,Commercial,COPD,2024-08-12,2024-08-13,1,Home,8,3,4,1,Yes,No,,
+P10508,Jennifer Moore,57,Male,Commercial,Heart Failure,2024-07-19,2024-07-21,2,Skilled Nursing Facility,7,1,1,1,Yes,No,,
+P10509,Christopher Jones,75,Female,Self-Pay,Diabetes Complications,2024-11-27,2024-12-05,8,Home,8,3,1,0,Yes,No,,
+P10510,Sarah Jones,65,Male,Medicaid,Heart Failure,2024-10-20,2024-10-23,3,Home Health Care,2,1,2,1,No,No,,
+P10511,Elizabeth Miller,58,Female,Medicare,COPD,2024-11-26,2024-11-27,1,Skilled Nursing Facility,10,0,1,0,Yes,Yes,7,Medication non-adherence
+P10512,David Miller,53,Male,Commercial,Heart Failure,2024-10-17,2024-10-22,5,Skilled Nursing Facility,10,2,1,2,No,No,,
+P10513,Sarah Anderson,56,Male,Medicare,COPD,2024-02-04,2024-02-06,2,Home,5,0,5,1,No,Yes,20,Infection
+P10514,Barbara Jones,72,Male,Medicare,Heart Failure,2024-11-13,2024-11-16,3,Home,7,3,1,2,Yes,No,,
+P10515,William Martin,45,Female,Medicare,Diabetes Complications,2024-03-19,2024-03-22,3,Home Health Care,9,1,1,1,Yes,No,,
+P10516,Susan Garcia,30,Male,Commercial,Sepsis,2024-04-23,2024-04-24,1,Home Health Care,5,0,3,0,Yes,No,,
+P10517,Barbara Jones,71,Female,Commercial,Stroke,2024-08-24,2024-08-28,4,Home,12,3,1,1,Yes,Yes,17,Inadequate discharge follow-up
+P10518,Christopher Martin,32,Male,Medicare,Stroke,2024-03-12,2024-03-15,3,Rehab Facility,13,2,0,0,No,No,,
+P10519,Christopher Williams,66,Male,Commercial,Stroke,2024-09-16,2024-09-22,6,Home Health Care,1,2,4,0,Yes,No,,
+P10520,Matthew Jackson,83,Male,Commercial,Hip/Knee Replacement,2024-10-09,2024-10-10,1,Home,10,2,3,0,Yes,No,,
+P10521,Christopher Jones,72,Female,Medicare,Sepsis,2024-10-28,2024-11-08,11,Home Health Care,3,2,2,0,Yes,No,,
+P10522,Thomas Williams,59,Female,Commercial,Sepsis,2024-01-06,2024-01-12,6,Home Health Care,10,1,4,0,No,No,,
+P10523,Karen Garcia,48,Male,Medicaid,Acute Kidney Injury,2024-04-01,2024-04-03,2,Home Health Care,1,1,2,0,No,No,,
+P10524,John Thomas,55,Female,Medicare,Heart Failure,2024-09-06,2024-09-10,4,Home,9,1,2,0,Yes,Yes,9,Same diagnosis recurrence
+P10525,Thomas Lopez,42,Female,Medicare,Acute Kidney Injury,2024-08-20,2024-08-26,6,Skilled Nursing Facility,16,0,1,1,Yes,No,,
+P10526,Patricia Taylor,70,Female,Medicaid,Stroke,2024-05-14,2024-05-19,5,Home Health Care,1,1,3,1,Yes,No,,
+P10527,Richard Lopez,73,Male,Medicare,Acute Kidney Injury,2024-07-11,2024-07-12,1,Left AMA,2,3,3,2,No,Yes,14,Post-surgical complication
+P10528,Barbara Thomas,49,Female,Medicare,Stroke,2024-01-04,2024-01-07,3,Home,4,1,3,0,Yes,No,,
+P10529,Robert Taylor,61,Female,Medicaid,COPD,2024-04-05,2024-04-13,8,Home,7,0,0,1,Yes,Yes,28,Same diagnosis recurrence
+P10530,Susan Hernandez,72,Male,Medicaid,Acute Kidney Injury,2024-09-02,2024-09-06,4,Home,4,3,2,1,Yes,Yes,22,Infection
+P10531,Mary Jones,68,Male,Medicaid,Heart Failure,2024-09-19,2024-09-20,1,Home,4,0,5,0,Yes,Yes,3,Medication non-adherence
+P10532,Jennifer Taylor,69,Female,Commercial,Pneumonia,2024-10-15,2024-10-21,6,Home Health Care,1,3,2,0,No,No,,
+P10533,Anthony Martinez,55,Male,Commercial,COPD,2024-11-06,2024-11-10,4,Left AMA,9,2,3,0,No,Yes,7,Medication non-adherence
+P10534,Karen Jones,52,Male,Commercial,Pneumonia,2024-09-18,2024-09-21,3,Home,7,3,2,0,Yes,Yes,12,Infection
+P10535,Robert Davis,40,Female,Medicaid,Sepsis,2024-02-25,2024-02-28,3,Home,13,0,3,3,No,No,,
+P10536,Nancy Wilson,54,Male,Medicaid,Pneumonia,2024-03-31,2024-04-02,2,Home,10,0,3,0,Yes,No,,
+P10537,Betty Moore,61,Male,Medicaid,Heart Failure,2024-12-03,2024-12-04,1,Home,1,0,3,0,No,Yes,28,Same diagnosis recurrence
+P10538,Matthew Wilson,41,Female,Medicaid,Sepsis,2024-01-23,2024-01-29,6,Home Health Care,5,2,1,0,No,Yes,27,Infection
+P10539,Richard Lopez,67,Male,Medicare,Sepsis,2024-05-10,2024-05-15,5,Home,8,0,2,1,Yes,Yes,29,Same diagnosis recurrence
+P10540,Mark Moore,51,Female,Commercial,COPD,2024-01-03,2024-01-09,6,Home Health Care,5,3,1,0,Yes,No,,
+P10541,Patricia Taylor,47,Male,Medicare,Sepsis,2024-04-15,2024-04-18,3,Home Health Care,1,1,1,0,Yes,Yes,13,Same diagnosis recurrence
+P10542,Christopher Jackson,65,Female,Medicare,COPD,2024-10-01,2024-10-03,2,Home,9,1,1,1,Yes,Yes,10,New unrelated condition
+P10543,Michael Wilson,69,Female,Medicare,Heart Failure,2024-10-13,2024-10-19,6,Home Health Care,7,2,2,0,Yes,No,,
+P10544,Barbara Gonzalez,85,Male,Medicare,Stroke,2024-12-03,2024-12-10,7,Home,5,1,2,1,No,No,,
+P10545,Jennifer Brown,59,Male,Medicaid,Acute Kidney Injury,2024-06-22,2024-06-26,4,Skilled Nursing Facility,8,0,1,1,Yes,No,,
+P10546,Mary Garcia,22,Female,Commercial,Hip/Knee Replacement,2024-01-03,2024-01-04,1,Skilled Nursing Facility,6,3,3,0,Yes,Yes,17,Inadequate discharge follow-up
+P10547,Robert Rodriguez,81,Male,Medicare,Sepsis,2024-11-07,2024-11-09,2,Home,12,1,2,1,No,No,,
+P10548,Karen Taylor,72,Female,Commercial,Diabetes Complications,2024-11-01,2024-11-06,5,Home,8,3,1,0,Yes,Yes,7,New unrelated condition
+P10549,James Miller,41,Female,Commercial,COPD,2024-11-02,2024-11-05,3,Home,7,3,2,1,Yes,No,,
+P10550,Nancy Johnson,73,Female,Medicare,COPD,2024-01-01,2024-01-02,1,Left AMA,5,1,1,0,No,No,,
+P10551,Richard Lopez,53,Female,Commercial,Sepsis,2024-04-12,2024-04-15,3,Home,7,5,0,0,Yes,No,,
+P10552,Robert Moore,47,Female,Medicare,Diabetes Complications,2024-10-13,2024-10-15,2,Rehab Facility,10,2,4,0,No,No,,
+P10553,David Davis,37,Male,Medicare,Acute Kidney Injury,2024-07-25,2024-08-03,9,Home Health Care,5,0,4,0,Yes,Yes,15,Inadequate discharge follow-up
+P10554,Robert Taylor,54,Female,Self-Pay,Sepsis,2024-02-29,2024-03-06,6,Skilled Nursing Facility,16,1,1,1,No,Yes,30,Inadequate discharge follow-up
+P10555,Charles Rodriguez,67,Female,Medicare,Hip/Knee Replacement,2024-10-15,2024-10-16,1,Home,1,0,1,0,Yes,No,,
+P10556,Matthew Anderson,90,Female,Medicare,Stroke,2024-01-15,2024-01-19,4,Home,6,2,1,1,No,Yes,14,New unrelated condition
+P10557,Linda Davis,88,Female,Medicare,Sepsis,2024-06-29,2024-07-03,4,Home,10,1,2,1,Yes,Yes,28,Post-surgical complication
+P10558,Robert Gonzalez,65,Female,Medicare,Heart Failure,2024-04-01,2024-04-06,5,Home,9,3,3,0,No,No,,
+P10559,David Garcia,58,Male,Medicare,Acute Kidney Injury,2024-04-12,2024-04-18,6,Home,8,2,0,0,Yes,No,,
+P10560,Linda Miller,70,Male,Medicare,Stroke,2024-07-01,2024-07-04,3,Home,15,0,4,0,No,No,,
+P10561,Nancy Thomas,56,Male,Commercial,Diabetes Complications,2024-10-04,2024-10-08,4,Rehab Facility,6,3,2,0,Yes,No,,
+P10562,William Thomas,58,Female,Medicare,Acute Kidney Injury,2024-09-18,2024-09-23,5,Home,1,1,3,1,Yes,No,,
+P10563,Mary Taylor,85,Female,Medicare,Acute Kidney Injury,2024-10-03,2024-10-04,1,Home,6,2,3,1,No,No,,
+P10564,Matthew Garcia,56,Female,Medicare,Hip/Knee Replacement,2024-12-23,2024-12-24,1,Home,5,2,3,0,Yes,No,,
+P10565,Nancy Miller,75,Female,Commercial,Acute Kidney Injury,2024-06-15,2024-06-19,4,Home,13,4,0,0,Yes,No,,
+P10566,David Davis,54,Female,Medicare,Acute Kidney Injury,2024-11-09,2024-11-11,2,Home,13,1,1,0,Yes,No,,
+P10567,Susan Lopez,56,Female,Medicaid,Stroke,2024-05-23,2024-06-02,10,Home,10,2,4,0,No,No,,
+P10568,Nancy Davis,61,Male,Commercial,Diabetes Complications,2024-04-30,2024-05-03,3,Home Health Care,8,1,4,1,Yes,No,,
+P10569,Betty Jones,54,Female,Medicare,Diabetes Complications,2024-03-31,2024-04-06,6,Home,9,3,1,1,Yes,Yes,30,New unrelated condition
+P10570,Lisa Hernandez,57,Female,Medicare,COPD,2024-10-14,2024-10-24,10,Skilled Nursing Facility,10,0,1,1,Yes,No,,
+P10571,Jennifer Johnson,47,Male,Medicare,Diabetes Complications,2024-08-31,2024-09-01,1,Skilled Nursing Facility,3,1,2,0,No,No,,
+P10572,David Lopez,84,Female,Medicare,Acute Kidney Injury,2024-05-11,2024-05-22,11,Home,9,0,4,0,No,Yes,13,New unrelated condition
+P10573,Michael Jackson,48,Male,Commercial,Hip/Knee Replacement,2024-05-25,2024-05-28,3,Home,4,1,2,0,Yes,No,,
+P10574,Lisa Anderson,73,Male,Self-Pay,Sepsis,2024-05-26,2024-05-28,2,Home,11,0,1,1,Yes,Yes,29,Medication non-adherence
+P10575,Sandra Hernandez,53,Female,Commercial,Pneumonia,2024-10-19,2024-10-21,2,Home,15,0,2,0,Yes,Yes,4,Medication non-adherence
+P10576,William Hernandez,75,Female,Medicare,Diabetes Complications,2024-11-05,2024-11-06,1,Home Health Care,2,3,0,0,Yes,No,,
+P10577,Margaret Lopez,69,Female,Medicare,Sepsis,2024-04-04,2024-04-09,5,Skilled Nursing Facility,16,2,1,0,Yes,No,,
+P10578,David Williams,68,Male,Commercial,Heart Failure,2024-02-22,2024-02-26,4,Home,7,1,5,3,Yes,Yes,17,Inadequate discharge follow-up
+P10579,Matthew Gonzalez,54,Male,Commercial,Heart Failure,2024-11-12,2024-11-29,17,Home,7,3,0,1,No,No,,
+P10580,Elizabeth Davis,88,Male,Medicare,Diabetes Complications,2024-08-14,2024-08-15,1,Home Health Care,3,3,2,0,No,No,,
+P10581,James Johnson,59,Female,Medicaid,Stroke,2024-06-15,2024-06-16,1,Skilled Nursing Facility,9,0,0,2,No,No,,
+P10582,Sandra Rodriguez,33,Female,Medicaid,Heart Failure,2024-12-23,2025-01-01,9,Home,10,1,1,1,Yes,No,,
+P10583,Lisa Jackson,46,Female,Commercial,Acute Kidney Injury,2024-11-23,2024-12-11,18,Home,4,0,2,0,Yes,No,,
+P10584,Linda Williams,49,Female,Medicare,COPD,2024-07-30,2024-07-31,1,Home,6,2,1,0,No,Yes,2,Inadequate discharge follow-up
+P10585,Margaret Jones,53,Female,Commercial,COPD,2024-09-30,2024-10-03,3,Home,8,1,1,1,No,No,,
+P10586,Jessica Martinez,71,Male,Commercial,Diabetes Complications,2024-05-29,2024-06-08,10,Home Health Care,4,1,5,0,Yes,No,,
+P10587,Michael Wilson,69,Female,Commercial,Sepsis,2024-03-24,2024-03-26,2,Home Health Care,2,3,3,1,No,No,,
+P10588,Linda Rodriguez,39,Male,Commercial,Sepsis,2024-05-02,2024-05-03,1,Home,5,1,5,0,Yes,No,,
+P10589,Daniel Rodriguez,76,Female,Medicare,Pneumonia,2024-09-29,2024-09-30,1,Skilled Nursing Facility,6,3,3,0,No,No,,
+P10590,Jennifer Jones,71,Female,Medicare,Heart Failure,2024-08-21,2024-08-25,4,Home Health Care,4,1,2,1,Yes,No,,
+P10591,Michael Hernandez,83,Male,Self-Pay,Heart Failure,2024-09-30,2024-10-01,1,Home,16,1,1,0,Yes,No,,
+P10592,John Anderson,75,Male,Medicare,COPD,2024-03-18,2024-03-25,7,Home,10,1,0,0,Yes,No,,
+P10593,Betty Thomas,75,Female,Commercial,Acute Kidney Injury,2024-01-17,2024-01-19,2,Home,7,2,1,0,No,No,,
+P10594,Mary Rodriguez,73,Female,Commercial,Heart Failure,2024-08-28,2024-09-02,5,Home,11,0,2,1,Yes,No,,
+P10595,Richard Smith,62,Male,Self-Pay,Hip/Knee Replacement,2024-05-07,2024-05-09,2,Home,9,0,5,0,No,Yes,9,New unrelated condition
+P10596,Michael Anderson,53,Male,Commercial,Acute Kidney Injury,2024-04-16,2024-04-19,3,Home,3,2,2,0,Yes,No,,
+P10597,William Garcia,48,Male,Medicare,Diabetes Complications,2024-10-08,2024-10-13,5,Home,6,1,1,1,Yes,No,,
+P10598,Michael Lopez,74,Male,Medicare,Stroke,2024-04-21,2024-04-24,3,Left AMA,11,1,2,2,No,No,,
+P10599,James Garcia,95,Female,Medicare,Acute Kidney Injury,2024-07-21,2024-07-25,4,Skilled Nursing Facility,11,2,2,0,No,Yes,3,Inadequate discharge follow-up
+P10600,Jessica Martin,61,Male,Medicaid,Sepsis,2024-02-15,2024-02-17,2,Home,8,1,1,0,Yes,No,,
